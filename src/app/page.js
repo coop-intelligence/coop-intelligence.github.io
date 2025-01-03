@@ -71,7 +71,7 @@ export default function Home() {
       <Section title={"Sponsors"}
         body={
           <div>
-            TBD
+            We are currently seeking sponsorship opportunities and would be delighted to discuss potential collaborations. Interested parties are kindly requested to contact us via email at yuhaibao94@gmail.com for further details.
           </div>
         }
         id="sponsors" />

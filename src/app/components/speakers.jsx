@@ -7,48 +7,63 @@ const Speakers = () => {
                 <div>
                     <PersonAvatar
                         name="Jiachen Li"
-                        image="/avatar.jpg"
+                        image="/jiachen_li.jpg"
                         affiliation="University of California Riverside, USA"
+                        link="https://jiachenli94.github.io/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
                         name="Siheng Chen"
-                        image="/avatar.jpg"
+                        image="/siheng_chen.jpg"
                         affiliation="Shanghai Jiao Tong University, China"
+                        link="https://siheng-chen.github.io/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
                         name="Marco Pavone"
-                        image="/avatar.jpg"
+                        image="/marco_pavone.jpeg"
                         affiliation="Stanford University, USA"
+                        link="https://web.stanford.edu/~pavone/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
                         name="Enze Xie"
-                        image="/avatar.jpg"
+                        image="/enze_xie.png"
                         affiliation="Nvidia, USA"
+                        link="https://xieenze.github.io/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
                         name="Hongyang Li"
-                        image="/avatar.jpg"
+                        image="/hongyang_li.jpeg"
                         affiliation="The University of Hong Kong, China"
+                        link="https://datascience.hku.hk/people/hongyang-li/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
                         name="Jeannette Bohg"
-                        image="/avatar.jpg"
+                        image="/jeannette_bohg.png"
                         affiliation="Stanford University, USA"
+                        link="https://web.stanford.edu/~bohg/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Hao Zhao"
+                        image="/hao_zhao.jpg"
+                        affiliation="Tsinghua University, China"
+                        link="https://sites.google.com/view/fromandto"
                     />
                 </div>
             </div>
