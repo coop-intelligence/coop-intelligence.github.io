@@ -21,7 +21,7 @@ const Organizers = ()=>{
 
         <br/>
         <p>
-            <span className="font-bold">Contact: </span>If you have any questions, please contact us at: coop-intelligence@googlegroups.com or yuhaibao94@gmail.com.
+            <span className="font-bold">Contact: </span>If you have any questions, please contact us at: <span className="text-blue-500"> coop-intelligence@googlegroups.com</span> or <span className="text-blue-500"> yuhaibao94@gmail.com</span>.
         </p>
        
     </div>

@@ -34,7 +34,9 @@ const CallForPapers = () => {
             <p className="text-pretty mb-2">
                 <span className="font-bold">Submission Guidance</span>
             </p>
-            <div>TBD</div>
+            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+                <li>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/MEIS" className="text-blue-500">Openreview</a></li>
+            </ul>
 
         </div>
     )

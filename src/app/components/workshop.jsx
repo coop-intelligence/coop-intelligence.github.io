@@ -9,7 +9,9 @@ const Workshop = () => {
 
             Despite progress, challenges in coordinating multi-agent systems remain underexplored. Key hurdles include deciding what information to transmit, how to transmit, and how to fuse data across various levels like perception, prediction, and planning. Moreover, obtaining high-quality real-world datasets is difficult. Recent advances in foundational and generative models offer promising ways to overcome these obstacles. This workshop will explore opportunities, challenges, and future directions for multi-agent embodied intelligent systems in the generative-AI era.
             </p>
-
+            <div className="my-4">
+                <img src="/banner.jpg" alt="Cooperative Intelligence in Multi-Agent Systems" className="w-full h-auto rounded-lg shadow-md" />
+            </div>
             <p className="text-pretty mt-2 mb-2">
             <span className="font-bold">Links to Past Workshops:</span> <a href="https://coop-intelligence.github.io/eccv2024/" className="text-blue-500">1st MAAS Workshop @ECCV2024</a>
             </p>

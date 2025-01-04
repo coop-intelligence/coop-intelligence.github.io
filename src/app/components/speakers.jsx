@@ -6,13 +6,13 @@ const Speakers = () => {
             <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
                 <div>
                     <PersonAvatar
-                        name="Jiachen Li"
-                        image="/jiachen_li.jpg"
-                        affiliation="University of California Riverside, USA"
-                        link="https://jiachenli94.github.io/"
+                        name="Marco Pavone"
+                        image="/marco_pavone.jpeg"
+                        affiliation="Stanford University, USA"
+                        link="https://web.stanford.edu/~pavone/"
                     />
                 </div>
-
+                
                 <div>
                     <PersonAvatar
                         name="Siheng Chen"
@@ -24,19 +24,10 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Marco Pavone"
-                        image="/marco_pavone.jpeg"
-                        affiliation="Stanford University, USA"
-                        link="https://web.stanford.edu/~pavone/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
-                        name="Enze Xie"
-                        image="/enze_xie.png"
-                        affiliation="Nvidia, USA"
-                        link="https://xieenze.github.io/"
+                        name="Zsolt Kira"
+                        image="/zsolt_kira.jpg"
+                        affiliation="Georgia Institute of Technology, USA"
+                        link="https://faculty.cc.gatech.edu/~zk15/"
                     />
                 </div>
 
@@ -46,6 +37,15 @@ const Speakers = () => {
                         image="/hongyang_li.jpeg"
                         affiliation="The University of Hong Kong, China"
                         link="https://datascience.hku.hk/people/hongyang-li/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Enze Xie"
+                        image="/enze_xie.png"
+                        affiliation="Nvidia, USA"
+                        link="https://xieenze.github.io/"
                     />
                 </div>
 
@@ -66,7 +66,46 @@ const Speakers = () => {
                         link="https://sites.google.com/view/fromandto"
                     />
                 </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Jiachen Li"
+                        image="/jiachen_li.jpg"
+                        affiliation="University of California Riverside, USA"
+                        link="https://jiachenli94.github.io/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Guillaume Sartoretti"
+                        image="/guillaume_sartoretti.jpg"
+                        affiliation="National University of Singapore, Singapore"
+                        link="https://www.marmotlab.org/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Henny Admoni"
+                        image="/henny_admoni.jpg"
+                        affiliation="Carnegie Mellon University, USA"
+                        link="http://www.hennyadmoni.com/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Javier Alonso-Mora"
+                        image="/javier_formal.jpg"
+                        affiliation="Delft University of Technology, Netherlands"
+                        link="https://autonomousrobots.nl/"
+                    />
+                </div>
             </div>
+            <p className="text-pretty mt-6">
+                <span className="font-bold">Note: </span>We are currently extending invitations to other eminent research scholars, so please stay tuned for updates.
+            </p>
         </div>
     );
 };

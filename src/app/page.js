@@ -41,7 +41,7 @@ export default function Home() {
           Call for Papers
         </a>
         <a className={button} href="#challenge">
-          Challenge
+          Challenges
         </a>
         <a className={button} href="#schedule">
           Schedule
@@ -52,9 +52,9 @@ export default function Home() {
         <a className={button} href="#organizers">
           Organizers
         </a>
-        {/* <a className={button} href="#programcommittee">
+        <a className={button} href="#programcommittee">
           Program Committee
-        </a> */}
+        </a>
         <a className={button} href="#sponsors">
           Sponsors
         </a>
@@ -62,16 +62,17 @@ export default function Home() {
       <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
       {/* <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" /> */}
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
-      <Section title={"Challenge"} body={<Challenge />} id="challenge" />
+      <Section title={"Challenges"} body={<Challenge />} id="challenge" />
       {/* <Section title={"Important Dates"} body={<ImportantDates />} id="importantdates" /> */}
       <Section title={"Schedule"} body={<Schedule />} id="schedule" />
       <Section title={"Speakers"} body={<Speakers />} id="speakers" />
       <Section title={"Organizers"} body={<Organizers />} id="organizers" />
-      {/* <Section title={"Program Committee"} body={<ProgramCommittee />} id="programcommittee" /> */}
+      <Section title={"Program Committee"} body={<ProgramCommittee />} id="programcommittee" />
       <Section title={"Sponsors"}
         body={
-          <div>
-            We are currently seeking sponsorship opportunities and would be delighted to discuss potential collaborations. Interested parties are kindly requested to contact us via email at yuhaibao94@gmail.com for further details.
+          <div className="text-pretty mt-4">
+            We are currently seeking sponsorship opportunities and would be delighted to discuss potential collaborations. Interested parties are kindly requested to contact us via email at  
+            <span className="text-blue-500"> yuhaibao94@gmail.com</span> for further details.
           </div>
         }
         id="sponsors" />
