@@ -4,9 +4,9 @@ const Organizers = ()=>{
     return <div className="text-justify"> 
          
         <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
-            <PersonAvatar name="Haibao Yu" image="/haibao_yu.jpg" affiliation={"The University of Hong Kong, China"} link={"https://www.linkedin.com/in/haibao-yu-152221118"}/>
+            <PersonAvatar name="Haibao Yu" image="/haibao_yu.jpg" affiliation={"The University of Hong Kong & Tsinghua University, China"} link={"https://www.linkedin.com/in/haibao-yu-152221118"}/>
             <PersonAvatar name="Jianing Qiu" image="/jianing_qiu.jpeg" affiliation={"Chinese University of Hong Kong, China"} link={"https://www.linkedin.com/in/jianing-qiu-91a802224/"} />
-            <PersonAvatar name="Yao Mu" image="/yao_mu.jpg" affiliation={"Shanghai Jiao Tong University, China"} link={"https://yaomarkmu.github.io/"}/>
+            <PersonAvatar name="Yao Mu" image="/yao_mu.jpg" affiliation={"The University of Hong Kong, China"} link={"https://yaomarkmu.github.io/"}/>
             <PersonAvatar name="Jiankai Sun" image="/jiankai_sun.png" affiliation={"Stanford University, USA"} link={"http://web.stanford.edu/~jksun/"}/>
             <PersonAvatar name="Li Chen" image="/li_chen.png" affiliation={"Shanghai AI Lab, China"} link={"https://scholar.google.com/citations?hl=en\&user=ulZxvY0AAAAJ"}/>
             <PersonAvatar name="Walter Zimmer" image="/walter_zimmer.jpeg" affiliation={"Technical University of Munich, Germany"} link={"https://walzimmer.github.io/website/"}/>
