@@ -17,9 +17,11 @@ const CallForPapers = () => {
                 <li>Multi-Robot Exploration and Mapping</li>
                 <li>Intelligent Transportation System</li>
                 <li>Large Language Model-assisted Cooperative System</li>
+                <li>AI Agents in Cooperative Systems</li>
                 <li>Foundation Models for Cooperative System</li>
                 <li>Generative Models for Data Synthesis and Simulation</li>
                 <li>Datasets and Benchmarks for Cooperative Learning</li>
+                <li>Safety and Security of Multi-Agent Systems</li>
             </ul>
             <p className="text-pretty mb-2">
                 <span className="font-bold">Important Dates</span>
