@@ -102,6 +102,15 @@ const Speakers = () => {
                         link="https://autonomousrobots.nl/"
                     />
                 </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Deepak Pathak"
+                        image="/deepak_pathak.jpeg"
+                        affiliation="Carnegie Mellon University, USA"
+                        link="https://www.cs.cmu.edu/~dpathak/"
+                    />
+                </div>
             </div>
             <p className="text-pretty mt-6">
                 <span className="font-bold">Note: </span>We are currently extending invitations to other eminent research scholars, so please stay tuned for updates.
