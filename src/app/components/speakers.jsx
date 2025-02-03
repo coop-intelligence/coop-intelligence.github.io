@@ -116,7 +116,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Sergey Levine"
                         image="/sergey_levine.png"
-                        affiliation="UC Berkeley, USA"
+                        affiliation="Co-founder of Physical Intelligence & UC Berkeley, USA"
                         link="https://people.eecs.berkeley.edu/~svlevine/"
                     />
                 </div>
