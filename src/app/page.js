@@ -72,9 +72,9 @@ export default function Home() {
         body={
           <div className="mt-4">
             <div className="grid sm:grid-cols-3 grid-cols-2 mt-4 place-items-center">
-              <div className="flex flex-col items-center">
+              {/* <div className="flex flex-col items-center">
                 <img src="huawei.png" alt="Image 1" className="w-[8em] h-auto" />
-              </div>
+              </div> */}
               <div className="flex flex-col items-center">
                 <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
               </div>
