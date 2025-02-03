@@ -21,7 +21,7 @@ const Challenge = () => {
                         <td className="border border-gray-300 p-2">End-to-End Autonomous Driving through V2X Cooperation</td>
                         <td className="border border-gray-300 p-2">Ruiyang Hao, Haibao Yu, Jiaru Zhong, Jiahao Wang, Wenxian Yang, Chuanye Wang, Siqi Fan</td>
                         <td className="border border-gray-300 p-2">Upcoming</td>
-                        <td className="border border-gray-300 p-2"><a href="https://blindpub.github.io/V2X-Sec_MEIS/" target="_blank" rel="noopener noreferrer">
+                        <td className="border border-gray-300 p-2"><a href="https://coop-intelligence.github.io/V2X-Sec_MEIS/" target="_blank" rel="noopener noreferrer">
                                 🌐
                             </a></td>
                     </tr>
