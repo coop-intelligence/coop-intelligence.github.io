@@ -17,6 +17,15 @@ const ProgramCommittee = ()=>{
             <CommitteeAvatar name="Mingyu Ding" affiliation="UNC-Chapel Hill" link="https://dingmyu.github.io/"/>
             <CommitteeAvatar name="Lipeng Chen" affiliation="Tencent Robotics X" link="https://ieeexplore.ieee.org/author/37086579788"/>
             <CommitteeAvatar name="Lin Li" affiliation="King’s College London" link="https://www.kcl.ac.uk/people/lin-li"/>
+            <CommitteeAvatar name="Yue Hu" affiliation="Shanghai Jiao Tong University" link="https://phyllish.github.io/"/>
+            <CommitteeAvatar name="Yunshuang Yuan" affiliation="Leibniz University Hannover"/>
+            <CommitteeAvatar name="Xuting Duan" affiliation="Beihang University" link="https://shi.buaa.edu.cn/duanxuting/zh_CN/index.htm"/>
+            <CommitteeAvatar name="Deyuan Qu" affiliation="University of North Texas"/>
+            <CommitteeAvatar name="Minh David Thao Chan" affiliation="Tsinghua University"/>
+            <CommitteeAvatar name="Hyunchul Bae" affiliation="Korea Advanced Institute of Science and Technology"/>
+            <CommitteeAvatar name="Alberto Justo" affiliation="Tecnalia Research & Innovation" link="www.linkedin.com/in/alberto-justo96"/>
+            <CommitteeAvatar name="Je-Seok Ham" affiliation="Electronics and Telecommunications Research Institute"/>
+
         </div>
 
         <br/>
