@@ -111,6 +111,15 @@ const Speakers = () => {
                         link="https://www.cs.cmu.edu/~dpathak/"
                     />
                 </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Sergey Levine"
+                        image="/sergey_levine.png"
+                        affiliation="UC Berkeley, USA"
+                        link="https://people.eecs.berkeley.edu/~svlevine/"
+                    />
+                </div>
             </div>
             <p className="text-pretty mt-6">
                 <span className="font-bold">Note: </span>We are currently extending invitations to other eminent research scholars, so please stay tuned for updates.
