@@ -35,7 +35,9 @@ const Challenge = () => {
                         <td className="border border-gray-300 p-2">Human–Robot Interaction Challenge</td>
                         <td className="border border-gray-300 p-2">Jianing Qiu, Lin Li, Lipeng Chen</td>
                         <td className="border border-gray-300 p-2">Upcoming</td>
-                        <td className="border border-gray-300 p-2">Upcoming</td>
+                        <td className="border border-gray-300 p-2"><a href="https://h2tc-roboticsx.github.io/" target="_blank" rel="noopener noreferrer">
+                                🌐
+                            </a></td>
                     </tr>
                 </tbody>
             </table>
