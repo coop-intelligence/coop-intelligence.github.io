@@ -29,7 +29,9 @@ const Challenge = () => {
                         <td className="border border-gray-300 p-2">RoboTwin Dual-Arm Collaboration Challenge</td>
                         <td className="border border-gray-300 p-2">Yao Mu, Tianxing Chen, Zhiqiang Xie</td>
                         <td className="border border-gray-300 p-2">Upcoming</td>
-                        <td className="border border-gray-300 p-2">Upcoming</td>
+                        <td className="border border-gray-300 p-2"><a href="http://robotwin-benchmark.github.io/cvpr-2025-challenge" target="_blank" rel="noopener noreferrer">
+                                🌐
+                            </a></td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 p-2">Human–Robot Interaction Challenge</td>
