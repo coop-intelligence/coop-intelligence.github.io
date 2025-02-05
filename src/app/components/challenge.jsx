@@ -44,13 +44,13 @@ const Challenge = () => {
                 </tbody>
             </table>
 
-            <p className="text-pretty mb-1" style={{ fontSize: '22px', fontWeight: 'bold', color: 'black' }}>
-                Awards
+            <p className="text-pretty mb-2">
+                <span className="font-bold">Awards for Each Challenge</span>
             </p>
-            <ul style={{ paddingLeft: '2em' }}>
-                <li style={{ marginBottom: '5px' }}>🥇 Outstanding Champion, USD $1500</li>
-                <li style={{ marginBottom: '5px' }}>🥈 Honorable Runner-up, USD $1000</li>
-                <li>🥉 Exceptional Merit Award, USD $500</li>
+            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+                <li>🥇 First Prize ($1500)</li>
+                <li>🥈 Second Prize ($1000)</li>
+                <li>🥉 Third Prize ($500)</li>
             </ul>
 
         </div>
