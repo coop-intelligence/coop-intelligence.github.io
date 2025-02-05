@@ -44,6 +44,15 @@ const Challenge = () => {
                 </tbody>
             </table>
 
+            <p className="text-pretty mb-1" style={{ fontSize: '22px', fontWeight: 'bold', color: 'black' }}>
+                Awards
+            </p>
+            <ul style={{ paddingLeft: '2em' }}>
+                <li style={{ marginBottom: '5px' }}>🥇 Outstanding Champion, USD $1500</li>
+                <li style={{ marginBottom: '5px' }}>🥈 Honorable Runner-up, USD $1000</li>
+                <li>🥉 Exceptional Merit Award, USD $500</li>
+            </ul>
+
         </div>
     )
 }
