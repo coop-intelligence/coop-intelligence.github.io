@@ -39,6 +39,13 @@ const CallForPapers = () => {
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/MEIS" className="text-blue-500">Openreview</a></li>
             </ul>
+            <p className="text-pretty mb-2">
+                <span className="font-bold">Awards</span>
+            </p>
+            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+                <li>🏆Best Paper Award ($500)</li>
+                <li>🏆Best Paper Runner-up Award ($500)</li>
+            </ul>
 
         </div>
     )
