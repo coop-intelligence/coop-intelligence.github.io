@@ -25,7 +25,8 @@ const ProgramCommittee = ()=>{
             <CommitteeAvatar name="Hyunchul Bae" affiliation="Korea Advanced Institute of Science and Technology"/>
             <CommitteeAvatar name="Alberto Justo" affiliation="Tecnalia Research & Innovation" link="www.linkedin.com/in/alberto-justo96"/>
             <CommitteeAvatar name="Je-Seok Ham" affiliation="Electronics and Telecommunications Research Institute"/>
-
+            <CommitteeAvatar name="Hao Wei" affiliation="The Chinese University of Hong Kong"/>
+            <CommitteeAvatar name="Carlos Plou" affiliation="University of Zaragoza"/>
         </div>
 
         <br/>
