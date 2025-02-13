@@ -34,10 +34,10 @@ const Challenge = () => {
                             </a></td>
                     </tr>
                     <tr>
-                        <td className="border border-gray-300 p-2">Human–Robot Interaction Challenge</td>
+                        <td className="border border-gray-300 p-2">Human–Robot Object Throwing and Catching Challenge</td>
                         <td className="border border-gray-300 p-2">Jianing Qiu, Lin Li, Lipeng Chen</td>
                         <td className="border border-gray-300 p-2">Upcoming</td>
-                        <td className="border border-gray-300 p-2"><a href="https://h2tc-roboticsx.github.io/" target="_blank" rel="noopener noreferrer">
+                        <td className="border border-gray-300 p-2"><a href="https://coop-intelligence.github.io/H2TC_MEIS/" target="_blank" rel="noopener noreferrer">
                                 🌐
                             </a></td>
                     </tr>
