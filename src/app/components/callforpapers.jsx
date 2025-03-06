@@ -37,7 +37,11 @@ const CallForPapers = () => {
                 <span className="font-bold">Submission Guidance</span>
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/MEIS" className="text-blue-500">Openreview</a></li>
+                <li>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/MEIS" className="text-blue-500">Openreview</a> </li>
+                <li>Submission format: Submissions must follow the CVPR 2025 template (<a href="https://cvpr.thecvf.com/Conferences/2025/AuthorGuidelines" className="text-blue-500">here</a>) and will be peer-reviewed in a double-blind manner. 
+                    Submission must be no more than 8 pages (excluding references). 
+                    By default, accepted papers will be included in the CVPR workshop proceedings. 
+                    Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions. </li>
             </ul>
             <p className="text-pretty mb-2">
                 <span className="font-bold">Awards</span>
