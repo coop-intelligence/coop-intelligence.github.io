@@ -28,7 +28,7 @@ const CallForPapers = () => {
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Paper Submission Open: Februray 01, 2025</li>
-                <li>Submission asbtract deadline: March 10, 2025</li>
+                <li><s>Submission asbtract deadline: March 10, 2025</s></li>
                 <li>Paper submission deadline: March 20, 2025</li>
                 <li>Notification of acceptance: March 31, 2025</li>
                 <li>Camera ready: April 07, 2025</li>
