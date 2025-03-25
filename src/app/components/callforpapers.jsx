@@ -51,6 +51,23 @@ const CallForPapers = () => {
                 <li>🏆Best Paper Award ($500)</li>
                 <li>🏆Best Paper Runner-up Award ($500)</li>
             </ul>
+            <p className="text-pretty mb-2">
+                <span className="font-bold">Area Chairs</span>
+            </p>
+            <ul class="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+                <li>
+                    <a href="https://www.intelligentrobotics-acrossscales.com/" class="text-blue-500 hover:underline">Dandan Zhang</a> (Imperial College London)
+                </li>
+                <li>
+                    <a href="https://scholar.google.com/citations?hl=en&user=ulZxvY0AAAAJ" class="text-blue-500 hover:underline">Li Chen</a> (Shanghai AI Lab)
+                </li>
+                <li>
+                    <a href="https://leofansq.github.io/" class="text-blue-500 hover:underline">Siqi Fan</a> (Tsinghua University)
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jianing-qiu-91a802224/" class="text-blue-500 hover:underline">Jianing Qiu</a> (Chinese University of Hong Kong)
+                </li>
+            </ul>
 
         </div>
     )
