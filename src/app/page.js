@@ -78,9 +78,9 @@ export default function Home() {
               <div className="flex flex-col items-center">
                 <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
               </div>
-              <div className="flex flex-col items-center">
+              {/* <div className="flex flex-col items-center">
                 <img src="dex_hand.png" alt="Image 1" className="w-[10em] h-auto" />
-              </div>
+              </div> */}
             </div>
 
             <div className="text-pretty mt-4">
