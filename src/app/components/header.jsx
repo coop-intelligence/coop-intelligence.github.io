@@ -16,7 +16,7 @@ const Header = ()=>{
                     Opportunities, Challenges and Futures
                 </div>
                 <div className="text-[0.55em]  text-white text-center mt-5">
-                    Wed June 11th - Sun June 15th, 2025
+                    June 12, 2025
                 </div>
                 <div className="text-[0.55em]  text-white text-center ">
                     the Music City Center, Nashville TN
