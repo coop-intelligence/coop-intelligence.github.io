@@ -8,7 +8,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Marco Pavone"
                         image="/marco_pavone.jpeg"
-                        affiliation="Stanford University, USA"
+                        affiliation="Stanford University"
                         link="https://web.stanford.edu/~pavone/"
                     />
                 </div>
@@ -17,7 +17,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Siheng Chen"
                         image="/siheng_chen.jpg"
-                        affiliation="Shanghai Jiao Tong University, China"
+                        affiliation="Shanghai Jiao Tong University"
                         link="https://siheng-chen.github.io/"
                     />
                 </div>
@@ -26,7 +26,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Zsolt Kira"
                         image="/zsolt_kira.jpg"
-                        affiliation="Georgia Institute of Technology, USA"
+                        affiliation="Georgia Institute of Technology"
                         link="https://faculty.cc.gatech.edu/~zk15/"
                     />
                 </div>
@@ -35,7 +35,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Hongyang Li"
                         image="/hongyang_li.jpeg"
-                        affiliation="The University of Hong Kong, China"
+                        affiliation="The University of Hong Kong"
                         link="https://datascience.hku.hk/people/hongyang-li/"
                     />
                 </div>
@@ -44,7 +44,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Enze Xie"
                         image="/enze_xie.png"
-                        affiliation="Nvidia, USA"
+                        affiliation="Nvidia"
                         link="https://xieenze.github.io/"
                     />
                 </div>
@@ -53,7 +53,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Jeannette Bohg"
                         image="/jeannette_bohg.png"
-                        affiliation="Stanford University, USA"
+                        affiliation="Stanford University"
                         link="https://web.stanford.edu/~bohg/"
                     />
                 </div>
@@ -62,7 +62,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Hao Zhao"
                         image="/hao_zhao.jpg"
-                        affiliation="Tsinghua University, China"
+                        affiliation="Tsinghua University"
                         link="https://sites.google.com/view/fromandto"
                     />
                 </div>
@@ -71,7 +71,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Jiachen Li"
                         image="/jiachen_li.jpg"
-                        affiliation="University of California Riverside, USA"
+                        affiliation="University of California Riverside"
                         link="https://jiachenli94.github.io/"
                     />
                 </div>
@@ -80,7 +80,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Guillaume Sartoretti"
                         image="/guillaume_sartoretti.jpg"
-                        affiliation="National University of Singapore, Singapore"
+                        affiliation="National University of Singapore"
                         link="https://www.marmotlab.org/"
                     />
                 </div>
@@ -89,7 +89,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Henny Admoni"
                         image="/henny_admoni.jpg"
-                        affiliation="Carnegie Mellon University, USA"
+                        affiliation="Carnegie Mellon University"
                         link="http://www.hennyadmoni.com/"
                     />
                 </div>
@@ -98,7 +98,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Javier Alonso-Mora"
                         image="/javier_formal.jpg"
-                        affiliation="Delft University of Technology, Netherlands"
+                        affiliation="Delft University of Technology"
                         link="https://autonomousrobots.nl/"
                     />
                 </div>
@@ -107,7 +107,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Deepak Pathak"
                         image="/deepak_pathak.jpeg"
-                        affiliation="Co-founder of Skild AI & Carnegie Mellon University, USA"
+                        affiliation="Co-founder of Skild AI & Carnegie Mellon University"
                         link="https://www.cs.cmu.edu/~dpathak/"
                     />
                 </div>
@@ -116,7 +116,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Sergey Levine"
                         image="/sergey_levine.png"
-                        affiliation="Co-founder of Physical Intelligence & UC Berkeley, USA"
+                        affiliation="Co-founder of Physical Intelligence & UC Berkeley"
                         link="https://people.eecs.berkeley.edu/~svlevine/"
                     />
                 </div>
