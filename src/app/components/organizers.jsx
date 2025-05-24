@@ -14,7 +14,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Dandan Zhang" image="/dandan_zhang.jpg" affiliation={"Imperial College London, UK"} link={"https://www.intelligentrobotics-acrossscales.com/"}/>
             <PersonAvatar name="Fei Gao" image="/fei_gao.jpg" affiliation={"Zhejiang University, China"} link={"http://zju-fast.com/research-group/fei-gao/"}/>
             <PersonAvatar name="Shanghang Zhang" image="/shanghang_zhang.jpg" affiliation={"Peking University, China"} link={"https://www.shanghangzhang.com/"}/>
-            <PersonAvatar name="Mac Schwager" image="/mac_schwager.jpg" affiliation={"Nvidia & Stanford University, USA"} link={"https://web.stanford.edu/~schwager/"}/>
+            <PersonAvatar name="Mac Schwager" image="/mac_schwager.jpg" affiliation={"Stanford University, USA"} link={"https://web.stanford.edu/~schwager/"}/>
             <PersonAvatar name="Ping Luo" image="/ping_luo.jpg" affiliation={"The University of Hong Kong, China"} link={"http://luoping.me/"}/>
             <PersonAvatar name="Zaiqing Nie" image="/zaiqing_nie.jpg" affiliation={"Tsinghua University, China"} link={"https://air.tsinghua.edu.cn/en/info/1046/1192.htm"}/>
         </div>

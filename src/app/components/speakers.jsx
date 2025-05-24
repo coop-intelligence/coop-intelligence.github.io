@@ -107,7 +107,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Deepak Pathak"
                         image="/deepak_pathak.jpeg"
-                        affiliation="Carnegie Mellon University, USA"
+                        affiliation="Co-founder of Skild AI & Carnegie Mellon University, USA"
                         link="https://www.cs.cmu.edu/~dpathak/"
                     />
                 </div>
