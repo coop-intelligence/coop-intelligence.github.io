@@ -19,8 +19,8 @@ const Schedule = () => {
                     <tbody>
                         <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-3 py-2">08:50 - 09:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Introduction and Opening Remarks</td>
-                            <td className="border border-gray-300 px-3 py-2">Haibao Yu (HKU)</td>
+                            <td className="border border-gray-300 px-3 py-2">Introduction and Opening Remarks <br /> Haibao Yu (HKU)</td>
+                            <td className="border border-gray-300 px-3 py-2">-</td>
                         </tr>
                         
                         {/* 第一组Shanghang Zhang */}
