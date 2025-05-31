@@ -100,6 +100,15 @@ const Schedule = () => {
                             <td className="border border-gray-300 px-3 py-2">Coffe Break & Poster Presentation</td>
                             <td className="border border-gray-300 px-3 py-2">-</td>
                         </tr>
+                        <tr className="bg-green-50">
+                            <td className="border border-gray-300 px-3 py-2">16:00 - 16:30</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 10: Zsolt Kira (Georgia Institute of Technology)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2" rowSpan="2">Dandan Zhang (Imperial College London)</td>
+                        </tr>
+                        <tr className="bg-green-50">
+                            <td className="border border-gray-300 px-3 py-2">16:30 - 17:00</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Enze Xie (Nvidia)<br />Talk Title: TBD</td>
+                        </tr>
                         
                         {/* Haibao Yu主持的时段 */}
                         <tr className="bg-blue-50">
