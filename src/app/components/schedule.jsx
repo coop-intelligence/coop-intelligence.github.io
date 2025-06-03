@@ -35,7 +35,7 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">10:00 - 10:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 3: Guillaume Sartoretti (NUS)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 3: Guillaume Sartoretti (NUS)<br />Talk Title: High-Dimensional Multi-Agent Robot Learning</td>
                         </tr>
                         
                         <tr>
@@ -52,7 +52,7 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">11:30 - 12:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 5: Jiachen Li (UC River)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 5: Jiachen Li (University of California, Riverside)<br />Talk Title: Toward Trustworthy Embodied Agents: From Individuals to Teams</td>
                         </tr>
                         
                         {/* Haibao Yu主持的时段 */}
@@ -84,15 +84,15 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">14:00 - 14:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 7: Hongyang Li (OpenDriveLab & HKU)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 7: Hongyang Li (OpenDriveLab & HKU)<br />Talk Title: VLAs on the Horizon for Embodied Systems</td>
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">14:30 - 15:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 8: Siheng Chen (SJTU)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 8: Siheng Chen (SJTU)<br />Talk Title: Multi-agent collaborative perception</td>
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">15:00 - 15:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 9: Hao Zhao (THU)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 9: Hao Zhao (THU)<br />Talk Title: Generative Simulation: Unlocking Infinite Inspiration for Embodied Intelligence</td>
                         </tr>
                         
                         <tr>
@@ -102,12 +102,12 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">16:00 - 16:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 10: Zsolt Kira (Georgia Institute of Technology)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 10: Zsolt Kira (Georgia Institute of Technology)<br />Talk Title: Vision-Language Models for Cooperative Intelligence</td>
                             <td className="border border-gray-300 px-3 py-2" rowSpan="2">Dandan Zhang (Imperial College London)</td>
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">16:30 - 17:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Enze Xie (Nvidia)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Enze Xie (Nvidia)<br />Talk Title: Building an efficient and high-quality Text to Image foundation generative model from scratch</td>
                         </tr>
                         
                         {/* Haibao Yu主持的时段 */}
