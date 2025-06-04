@@ -92,7 +92,7 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">15:00 - 15:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 9: Hao Zhao (THU)<br />Talk Title: Generative Simulation: Unlocking Infinite Inspiration for Embodied Intelligence</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 9: Hao Zhao (THU)<br />Talk Title: World Models: Subjunctives</td>
                         </tr>
                         
                         <tr>
