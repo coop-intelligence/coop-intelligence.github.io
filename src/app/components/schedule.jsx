@@ -26,7 +26,7 @@ const Schedule = () => {
                         {/* 第一组Shanghang Zhang */}
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">09:00 - 09:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 1: Sergey Levine (PI & UC Berkeley)<br />Talk Title: TBD (Remote)</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 1: Enze Xie (Nvidia)<br />Talk Title: Building an efficient and high-quality Text to Image foundation generative model from scratch</td>
                             <td className="border border-gray-300 px-3 py-2" rowSpan="3">Shanghang Zhang (PKU)</td>
                         </tr>
                         <tr className="bg-green-50">
@@ -107,7 +107,7 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">16:30 - 17:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Enze Xie (Nvidia)<br />Talk Title: Building an efficient and high-quality Text to Image foundation generative model from scratch</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Sergey Levine (PI & UC Berkeley)<br />Talk Title: TBD (Remote)</td>
                         </tr>
                         
                         {/* Haibao Yu主持的时段 */}
