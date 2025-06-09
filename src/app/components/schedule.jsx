@@ -107,7 +107,7 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">16:30 - 17:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Sergey Levine (PI & UC Berkeley)<br />Talk Title: TBD (Remote)</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 11: Sergey Levine (PI & UC Berkeley)<br />Talk Title: Responsive and Interactive Vision-Language-Action Models (Remote)</td>
                         </tr>
                         
                         {/* Haibao Yu主持的时段 */}
