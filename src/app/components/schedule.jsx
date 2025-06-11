@@ -12,7 +12,7 @@ const Schedule = () => {
                 <table className="w-full border border-gray-200 text-sm mx-auto">
                     <thead>
                         <tr className="bg-gray-100">
-                            <th className="border border-gray-300 px-3 py-2 w-[150px]">Time</th>
+                            <th className="border border-gray-300 px-3 py-2 w-[150px]">Time (ET)</th>
                             <th className="border border-gray-300 px-3 py-2">Schedule</th>
                             <th className="border border-gray-300 px-3 py-2 w-[250px]">Hoster</th>
                         </tr>
