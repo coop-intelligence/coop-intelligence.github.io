@@ -31,7 +31,7 @@ const Schedule = () => {
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">09:30 - 10:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 2: Jeannette Bohg (Stanford)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 2: Jeannette Bohg (Stanford)<br />Talk Title: Towards collaborative mobile manipulation</td>
                         </tr>
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">10:00 - 10:30</td>
@@ -79,7 +79,7 @@ const Schedule = () => {
                         {/* Dandan Zhang主持的时段 */}
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">13:30 - 14:00</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 6: Marco Pavone (Nvidia & Stanford)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 6: Marco Pavone (Nvidia & Stanford)<br />Talk Title: Ensuring Physical AI Safety in AI-enabled Autonomous Systems</td>
                             <td className="border border-gray-300 px-3 py-2" rowSpan="4">Dandan Zhang (Imperial College London)</td>
                         </tr>
                         <tr className="bg-green-50">
