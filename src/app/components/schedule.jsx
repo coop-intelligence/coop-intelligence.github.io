@@ -59,7 +59,7 @@ const Schedule = () => {
                         {/* Haibao Yu主持的时段 */}
                         <tr className="bg-blue-50">
                             <td className="border border-gray-300 px-3 py-2">12:00 - 12:10</td>
-                            <td className="border border-gray-300 px-3 py-2">Oral Paper 1: <br />Paper Title: Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization<br />Presenter: Haiyong Yu</td>
+                            <td className="border border-gray-300 px-3 py-2">Oral Paper 1: <br />Paper Title: Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization<br />Presenter: Haiyong Yu (Remote)</td>
                             <td className="border border-gray-300 px-3 py-2" rowSpan="3">Haibao Yu (HKU)</td>
                         </tr>
                         <tr className="bg-blue-50">
