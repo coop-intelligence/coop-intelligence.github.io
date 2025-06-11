@@ -1,7 +1,7 @@
 const Schedule = () => {
     return <div className="text-justify">
         <ul className="list-disc list-inside space-y-2 mt-2 ml-4">
-            <li> <span className="font-bold">Date</span> - June 12th, 2025 (Full Day)</li>
+            <li> <span className="font-bold">Date</span> - June 12th, 2025 (Time Zone: ET)</li>
             <li><span className="font-bold">Location</span> - Room 102 A, Music City Center, Nashville TN, USA </li>
             <li><span className="font-bold">Live Content</span> - https://cvpr.thecvf.com/virtual/2025/workshop/32357 </li>
             <li><span className="font-bold">Agenda are as follows: </span></li>
