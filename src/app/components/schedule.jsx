@@ -48,7 +48,7 @@ const Schedule = () => {
                         {/* 第二组Shanghang Zhang */}
                         <tr className="bg-green-50">
                             <td className="border border-gray-300 px-3 py-2">11:00 - 11:30</td>
-                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 4: Deepak Pathak (SkildAI & CMU)<br />Talk Title: TBD</td>
+                            <td className="border border-gray-300 px-3 py-2">Keynote Speak 4: Deepak Pathak (SkildAI & CMU)<br />Talk Title: Human Videos, Sim2Real, RL: Recipes for Full-Stack Robot Learning at Scale</td>
                             <td className="border border-gray-300 px-3 py-2" rowSpan="2">Shanghang Zhang (PKU)</td>
                         </tr>
                         <tr className="bg-green-50">
