@@ -68,6 +68,35 @@ const CallForPapers = () => {
                     <a href="https://www.linkedin.com/in/jianing-qiu-91a802224/" class="text-blue-500 hover:underline">Jianing Qiu</a> (Chinese University of Hong Kong)
                 </li>
             </ul>
+            <p className="text-pretty mb-2">
+                <span className="font-bold">Accepted Papers (Title-Authors-Link-Oral/Poster)</span>
+            </p>
+            <ul class="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+                <li>
+                    SwarmDiff: Swarm Robotic Trajectory Planning in Cluttered Environments via Diffusion Transformer - Kang Ding, Chunxuan Jiao, Yunze Hu, Kangjie Zhou, Pengying Wu, Yao Mu, Chang Liu - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Ding_SwarmDiff_Swarm_Robotic_Trajectory_Planning_in_Cluttered_Environments_via_Diffusion_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Poster
+                </li>
+                <li>
+                    Efficient Task-specific Conditional Diffusion Policies: Shortcut Model Acceleration and SO(3) Optimization - Haiyong Yu, Yanqiong Jin, Yonghao He, Wei Sui - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Yu_Efficient_Task-specific_Conditional_Diffusion_Policies_Shortcut_Model_Acceleration_and_SO3_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Oral
+                </li>
+                <li>
+                    AI Hiring with LLMs: A Context-Aware and Explainable Multi-Agent Framework for Resume Screening - Frank P.-W. Lo, Jianing Qiu, Zeyu Wang, Haibao Yu, Yeming Chen, Gao Zhang, Benny Lo - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Lo_AI_Hiring_with_LLMs_A_Context-Aware_and_Explainable_Multi-Agent_Framework_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Oral
+                </li>
+                <li>
+                    Multi-Agent Systems for Robotic Autonomy with LLMs - Junhong Chen, Ziqi Yang, Haoyuan G Xu, Dandan Zhang, George Mylonas - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Chen_Multi-Agent_Systems_for_Robotic_Autonomy_with_LLMs_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Oral
+                </li>
+                <li>
+                    An LLM-enabled Multi-Agent Autonomous Mechatronics Design Framework - Zeyu Wang, Frank P.-W. Lo, Qian Chen, Yongqi Zhang, Chen Lin, Xu Chen, Zhenhua Yu, Alexander J. Thompson, Eric M. Yeatman, Benny P. L. Lo - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Wang_An_LLM-enabled_Multi-Agent_Autonomous_Mechatronics_Design_Framework_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Oral
+                </li>
+                <li>
+                    Deciding the Path: Leveraging Multi-Agent Systems for Solving Complex Tasks - Iman Abbasnejad, Xuefeng Liu, Atunu Roy - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Abbasnejad_Deciding_the_Path_Leveraging_Multi-Agent_Systems_for_Solving_Complex_Tasks_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Poster
+                </li>
+                <li>
+                    LangCoop: Collaborative Driving with Language - Xiangbo Gao, Yuheng Wu, Rujia Wang, Chenxi Liu, Yang Zhou, Zhengzhong Tu - <a href="https://openaccess.thecvf.com/content/CVPR2025W/MEIS/html/Gao_LangCoop_Collaborative_Driving_with_Language_CVPRW_2025_paper.html" class="text-blue-500 hover:underline">Link</a> - Oral
+                </li>
+                <li>
+                    RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints - Yiran Qin, Li Kang, Xiufeng Song, Zhenfei Yin, Xiaohong Liu, Xihui Liu, Ruimao Zhang, Lei Bai - <a href="https://arxiv.org/abs/2503.16408" class="text-blue-500 hover:underline">Link</a> - Oral
+                </li>
+            </ul>
 
         </div>
     )
