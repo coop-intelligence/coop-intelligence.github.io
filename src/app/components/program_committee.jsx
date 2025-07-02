@@ -29,6 +29,7 @@ const ProgramCommittee = ()=>{
             <CommitteeAvatar name="Carlos Plou" affiliation="University of Zaragoza"/>
             <CommitteeAvatar name="Xiaosong Jia" affiliation="Shanghai Jiao Tong University" link="https://jiaxiaosong1002.github.io/"/>
             <CommitteeAvatar name="Guoyu Zhang" affiliation="Tongji University"/>
+            <CommitteeAvatar name="Tianxing Chen" affiliation="The University of Hong Kong"/>
         </div>
 
         <br/>

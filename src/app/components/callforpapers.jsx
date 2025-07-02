@@ -48,8 +48,8 @@ const CallForPapers = () => {
                 <span className="font-bold">Awards</span>
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li>🏆Best Paper Award ($500)</li>
-                <li>🏆Best Paper Runner-up Award ($500)</li>
+                <li>🏆Best Paper Award ($500) - LangCoop: Collaborative Driving with Language</li>
+                <li>🏆Outstanding Paper Award ($500) - RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints</li>
             </ul>
             <p className="text-pretty mb-2">
                 <span className="font-bold">Area Chairs</span>
