@@ -10,7 +10,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Jiankai Sun" image="/jiankai_sun.png" affiliation={"Stanford University"} link={"http://web.stanford.edu/~jksun/"}/>
             <PersonAvatar name="Li Chen" image="/li_chen.png" affiliation={"Shanghai AI Lab"} link={"https://scholar.google.com/citations?hl=en\&user=ulZxvY0AAAAJ"}/>
             <PersonAvatar name="Walter Zimmer" image="/walter_zimmer.jpeg" affiliation={"Technical University of Munich"} link={"https://walzimmer.github.io/website/"}/>
-            <PersonAvatar name="Jiaru Zhong" image="/jiaru_zhong.jpg" affiliation={"Beijing Institute of Technology"} link={"https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=Q9KMoxkAAAAJ"}/>
+            <PersonAvatar name="Jiaru Zhong" image="/jiaru_zhong.jpg" affiliation={"The Hong Kong Polytechnic University"} link={"https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=Q9KMoxkAAAAJ"}/>
             <PersonAvatar name="Dandan Zhang" image="/dandan_zhang.jpg" affiliation={"Imperial College London"} link={"https://www.intelligentrobotics-acrossscales.com/"}/>
             <PersonAvatar name="Fei Gao" image="/fei_gao.jpg" affiliation={"Zhejiang University"} link={"http://zju-fast.com/research-group/fei-gao/"}/>
             <PersonAvatar name="Shanghang Zhang" image="/shanghang_zhang.jpg" affiliation={"Peking University"} link={"https://www.shanghangzhang.com/"}/>
