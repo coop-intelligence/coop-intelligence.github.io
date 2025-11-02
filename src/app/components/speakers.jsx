@@ -6,10 +6,10 @@ const Speakers = () => {
             <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
                 <div>
                     <PersonAvatar
-                        name="Marco Pavone"
-                        image="/marco_pavone.jpeg"
-                        affiliation="Stanford University"
-                        link="https://web.stanford.edu/~pavone/"
+                        name="Xiaopeng (Shaw) Li"
+                        image="/xiaopeng_li.png"
+                        affiliation="University of Wisconsin-Madison"
+                        link="https://engineering.wisc.edu/directory/profile/xiaopeng-li/"
                     />
                 </div>
                 
@@ -24,46 +24,19 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Zsolt Kira"
-                        image="/zsolt_kira.jpg"
-                        affiliation="Georgia Institute of Technology"
-                        link="https://faculty.cc.gatech.edu/~zk15/"
+                        name="Henry Liu"
+                        image="/henry_liu.png"
+                        affiliation="University of Michigan, Ann Arbor"
+                        link="https://traffic.engin.umich.edu/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
-                        name="Hongyang Li"
-                        image="/hongyang_li.jpeg"
-                        affiliation="The University of Hong Kong"
-                        link="https://datascience.hku.hk/people/hongyang-li/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
-                        name="Enze Xie"
-                        image="/enze_xie.png"
-                        affiliation="Nvidia"
-                        link="https://xieenze.github.io/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
-                        name="Jeannette Bohg"
-                        image="/jeannette_bohg.png"
-                        affiliation="Stanford University"
-                        link="https://web.stanford.edu/~bohg/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
-                        name="Hao Zhao"
-                        image="/hao_zhao.jpg"
-                        affiliation="Tsinghua University"
-                        link="https://sites.google.com/view/fromandto"
+                        name="Bernadette Bucher"
+                        image="/Bernadette_Bucher.png"
+                        affiliation="University of Michigan, Ann Arbor"
+                        link="https://bucherb.github.io/"
                     />
                 </div>
 
@@ -71,53 +44,62 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Jiachen Li"
                         image="/jiachen_li.jpg"
-                        affiliation="University of California Riverside"
+                        affiliation="University of California, Riverside"
                         link="https://jiachenli94.github.io/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
-                        name="Guillaume Sartoretti"
-                        image="/guillaume_sartoretti.jpg"
-                        affiliation="National University of Singapore"
-                        link="https://www.marmotlab.org/"
+                        name="Angela Dai"
+                        image="/angela_dai.png"
+                        affiliation="Technical University of Munich"
+                        link="https://www.3dunderstanding.org/team.html"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
-                        name="Henny Admoni"
-                        image="/henny_admoni.jpg"
-                        affiliation="Carnegie Mellon University"
-                        link="http://www.hennyadmoni.com/"
+                        name="Bolei Zhou"
+                        image="/bolei_zhou.png"
+                        affiliation="University of California, Los Angeles"
+                        link="https://boleizhou.github.io/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
-                        name="Javier Alonso-Mora"
-                        image="/javier_formal.jpg"
-                        affiliation="Delft University of Technology"
-                        link="https://autonomousrobots.nl/"
+                        name="Marco Pavone"
+                        image="/marco_pavone.jpeg"
+                        affiliation="Stanford University"
+                        link="https://research.nvidia.com/person/marco-pavone"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
-                        name="Deepak Pathak"
-                        image="/deepak_pathak.jpeg"
-                        affiliation="Co-founder of Skild AI & Carnegie Mellon University"
-                        link="https://www.cs.cmu.edu/~dpathak/"
+                        name="Enze Xie"
+                        image="/enze_xie.png"
+                        affiliation="NVIDIA"
+                        link="https://xieenze.github.io/"
                     />
                 </div>
+{/* 
+                <div>
+                    <PersonAvatar
+                        name="Heejin Ahn"
+                        image=""
+                        affiliation="Korea Advanced Institute of Science and Technology"
+                        link="https://sites.google.com/view/heejinahn/home"
+                    />
+                </div> */}
 
                 <div>
                     <PersonAvatar
-                        name="Sergey Levine"
-                        image="/sergey_levine.png"
-                        affiliation="Co-founder of Physical Intelligence & UC Berkeley"
-                        link="https://people.eecs.berkeley.edu/~svlevine/"
+                        name="Manabu Tsukada"
+                        image="/manabu_tsukada.png"
+                        affiliation="The University of Tokyo"
+                        link="https://tlab.hongo.wide.ad.jp/People/manabu-tsukada/"
                     />
                 </div>
             </div>

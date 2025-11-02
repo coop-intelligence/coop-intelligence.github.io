@@ -2,7 +2,8 @@ import CommitteeAvatar from "./program-avatar";
 
 const ProgramCommittee = ()=>{
     return <div className="text-justify mt-4"> 
-        <div className="grid sm:grid-cols-5 grid-cols-2 mt-4">
+        Upcoming
+        {/* <div className="grid sm:grid-cols-5 grid-cols-2 mt-4">
             <CommitteeAvatar name="Jiahao Wang" affiliation="Tsinghua University"/>
             <CommitteeAvatar name="Jiahui Xu" affiliation="Beijing Institute of Technology"/>
             <CommitteeAvatar name="Haoyu Li" affiliation="Beijing Institute of Technology"/>
@@ -30,7 +31,7 @@ const ProgramCommittee = ()=>{
             <CommitteeAvatar name="Xiaosong Jia" affiliation="Shanghai Jiao Tong University" link="https://jiaxiaosong1002.github.io/"/>
             <CommitteeAvatar name="Guoyu Zhang" affiliation="Tongji University"/>
             <CommitteeAvatar name="Tianxing Chen" affiliation="The University of Hong Kong"/>
-        </div>
+        </div> */}
 
         <br/>
        

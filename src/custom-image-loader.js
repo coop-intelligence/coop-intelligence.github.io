@@ -5,7 +5,7 @@ import path from "path";
 
 
 export default function myImageLoader({src,width}) {
-  if( basePath && path.isAbsolute(src) ){
+  if( basePath && basePath !== "/" && basePath !== "" && path.isAbsolute(src) ){
     return `${basePath}${src}?width=${width}`;
   }
   return `${src}?width=${width}`;

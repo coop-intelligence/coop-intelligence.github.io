@@ -3,58 +3,85 @@ const CallForPapers = () => {
         <div className="text-justify">
             
             <p className="text-pretty mt-2 mb-2">
-            <span className="font-bold">We invite submissions including but not limited to the following topics:</span>
+            <span className="font-bold text-lg">We invite submissions including but not limited to the following topics:</span>
+            </p>
+            
+            <div className="mt-4 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 className="font-bold mb-3">① Foundation Models and Architectures</h3>
+                        <ul className="list-disc list-inside space-y-2 ml-4">
+                            <li>Large Language Model-assisted Cooperative System</li>
+                            <li>Foundation Models for Cooperative System</li>
+                            <li>Reasoning and Memory in Agentic System</li>
+                            <li>VLA for Robotics and Autonomous Driving (AD)</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="font-bold mb-3">② Multi-Agent Systems & Collaboration</h3>
+                        <ul className="list-disc list-inside space-y-2 ml-4">
+                            <li>Vehicle-to-Everything (V2X): V2V, V2I, V2P, V2D</li>
+                            <li>Multi-agent Robotic System and Swarm Robots</li>
+                            <li>Swarm of Drones and Aerial Robots</li>
+                            <li>Cooperative Motion Prediction and Decision-Making</li>
+                            <li>Communication-Efficient Cooperative Perception</li>
+                            <li>End-to-End Cooperative Policy Learning</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="font-bold mb-3">③ Simulation and Evaluation</h3>
+                        <ul className="list-disc list-inside space-y-2 ml-4">
+                            <li>Simulation Platform for Cooperative System</li>
+                            <li>Datasets and Benchmarks for Cooperative Learning</li>
+                            <li>Simulation and Benchmarks for Agentic Systems</li>
+                            <li>Sim-to-Real Transfer</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className="font-bold mb-3">④ Human-Agent Interaction</h3>
+                        <ul className="list-disc list-inside space-y-2 ml-4">
+                            <li>Explainability and Interpretability for VLA</li>
+                            <li>Natural Language Interaction for Embodied Agents</li>
+                            <li>Human-Agent Collaboration</li>
+                            <li>Safety, Fairness, and Ethical Alignment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p className="text-pretty mb-2">
+                <span className="font-bold text-lg">Important Dates</span>
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li>Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I)</li>
-                <li>Multi-agent Robotic System and Swarm Robots</li>
-                <li>Swarm of Drones and Aerial Robots</li>
-                <li>Communication-Efficient Cooperative Perception</li>
-                <li>Cooperative Motion Prediction and Decision-Making</li>
-                <li>End-to-End Cooperative Policy Learning</li>
-                <li>Efficient and Intelligent V2X Communication</li>
-                <li>Data Security and Privacy in Multi-agent Communication</li>
-                <li>Multi-Robot Exploration and Mapping</li>
-                <li>Intelligent Transportation System</li>
-                <li>Large Language Model-assisted Cooperative System</li>
-                <li>AI Agents in Cooperative Systems</li>
-                <li>Foundation Models for Cooperative System</li>
-                <li>Generative Models for Data Synthesis and Simulation</li>
-                <li>Datasets and Benchmarks for Cooperative Learning</li>
-                <li>Safety and Security of Multi-Agent Systems</li>
+                <li>Paper submission open: February 1, 2026</li>
+                <li>Paper submission deadline: March 10, 2026</li>
+                <li>Notification of acceptance: March 20, 2026</li>
+                <li>Camera ready: March 31, 2026</li>
             </ul>
             <p className="text-pretty mb-2">
-                <span className="font-bold">Important Dates</span>
+                <span className="font-bold text-lg">Submission Guidance</span>
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li>Paper Submission Open: Februray 01, 2025</li>
-                <li>Submission asbtract deadline: <s>March 10, 2025</s> March 21, 2025 (Anywhere on Earth)</li>
-                <li>Paper submission deadline:<s>March 20, 2025</s> March 23, 2025 (Anywhere on Earth)</li>
-                <li>Notification of acceptance: March 29, 2025 (Anywhere on Earth)</li>
-                <li>Paper metadata submission deadline: March 30, 2025 (Anywhere on Earth)</li>
-                <li>Camera ready: April 07, 2025</li>
-            </ul>
-            <p className="text-pretty mb-2">
-                <span className="font-bold">Submission Guidance</span>
-            </p>
-            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/MEIS" className="text-blue-500">Openreview</a> </li>
-                <li>Submission format: Submissions must follow the CVPR 2025 template (<a href="https://cvpr.thecvf.com/Conferences/2025/AuthorGuidelines" className="text-blue-500">here</a>) and will be peer-reviewed in a double-blind manner. 
+                <li>Submission Portal: <a href="tbd" className="text-blue-500">Openreview (Upcoming)</a> </li>
+                <li>Submission format: Submissions must follow the CVPR 2026 template (<a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines" className="text-blue-500">here</a>) and will be peer-reviewed in a double-blind manner. 
                     Submission must be no more than 8 pages (excluding references). 
                     By default, accepted papers will be included in the CVPR workshop proceedings. 
                     Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions. </li>
             </ul>
-            <p className="text-pretty mb-2">
-                <span className="font-bold">Awards</span>
+            {/* <p className="text-pretty mb-2">
+                <span className="font-bold text-lg">Awards</span>
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>🏆Best Paper Award ($500) - LangCoop: Collaborative Driving with Language</li>
                 <li>🏆Outstanding Paper Award ($500) - RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints</li>
-            </ul>
-            <p className="text-pretty mb-2">
+            </ul> */}
+            <p className="text-pretty mb-2 text-lg">
                 <span className="font-bold">Area Chairs</span>
             </p>
-            <ul class="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
+            Upcoming
+            {/* <ul class="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>
                     <a href="https://www.intelligentrobotics-acrossscales.com/" class="text-blue-500 hover:underline">Dandan Zhang</a> (Imperial College London)
                 </li>
@@ -67,8 +94,8 @@ const CallForPapers = () => {
                 <li>
                     <a href="https://www.linkedin.com/in/jianing-qiu-91a802224/" class="text-blue-500 hover:underline">Jianing Qiu</a> (Chinese University of Hong Kong)
                 </li>
-            </ul>
-            <p className="text-pretty mb-2">
+            </ul> */}
+            {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Accepted Papers (Title-Authors-Link-Oral/Poster)</span>
             </p>
             <ul class="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
@@ -96,7 +123,7 @@ const CallForPapers = () => {
                 <li>
                     RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints - Yiran Qin, Li Kang, Xiufeng Song, Zhenfei Yin, Xiaohong Liu, Xihui Liu, Ruimao Zhang, Lei Bai - <a href="https://arxiv.org/abs/2503.16408" class="text-blue-500 hover:underline">Link</a> - Oral
                 </li>
-            </ul>
+            </ul> */}
 
         </div>
     )

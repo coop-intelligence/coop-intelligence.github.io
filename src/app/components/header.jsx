@@ -8,18 +8,17 @@ const Header = ()=>{
                      <span className="text-white tracking-[0.35em] font-semibold">MEIS</span>
                 </div> */}
                 <div className="text-[1.5em] text-center mt-2">
-                    2nd MEIS Workshop @CVPR2025
+                    3rd MEIS Workshop @CVPR2026
                 </div>
                 <div className="text-[0.8em] text-center ">
-                    {/* <span className={highlight}>La</span>rge <span className={highlight}>V</span>ision – Language Model Learning and <span className={highlight}>A</span>pplications  */}
                     <span className={highlight}>M</span>ulti-Agent <span className={highlight}>E</span>mbodied <span className={highlight}>I</span>ntelligent <span className={highlight}>S</span>ystems Meet Generative-AI Era: <br />
                     Opportunities, Challenges and Futures
                 </div>
                 <div className="text-[0.55em]  text-white text-center mt-5">
-                    June 12, 2025
+                    Wed June 3, 2026
                 </div>
                 <div className="text-[0.55em]  text-white text-center ">
-                    the Music City Center, Nashville TN
+                    Denver CO, USA
                 </div>
             </div>
            

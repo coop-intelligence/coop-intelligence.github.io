@@ -5,7 +5,7 @@ import Introduction from "./components/introduction";
 import Schedule from "./components/schedule";
 import Speakers from "./components/speakers";
 import Organizers from "./components/organizers";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Workshop from "./components/workshop";
 import CallForPapers from "./components/callforpapers";
 import Challenge from "./components/challenge";
@@ -13,6 +13,11 @@ import ImportantDates from "./components/importantdates";
 import ProgramCommittee from "./components/program_committee";
 
 export default function Home() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const previousWorkshops = [
+    { label: "MEIS @ CVPR 2025", url: "https://coop-intelligence.github.io/cvpr2025/" },
+    { label: "MEIS @ ECCV 2024", url: "https://coop-intelligence.github.io/eccv2024/" },
+  ];
   const topClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -36,7 +41,7 @@ export default function Home() {
   const button = "hover:cursor-pointer text-[#01305f] hover:text-white border border-[#01305f] hover:bg-[#01305f] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2"
   return (
     <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
-      <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center">
+      <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center items-start">
         <a className={button} href="#callforpapers">
           Call for Papers
         </a>
@@ -52,12 +57,42 @@ export default function Home() {
         <a className={button} href="#organizers">
           Organizers
         </a>
-        <a className={button} href="#programcommittee">
+        {/* <a className={button} href="#programcommittee">
           Program Committee
-        </a>
+        </a> */}
         <a className={button} href="#sponsors">
           Sponsors
         </a>
+
+        <div className="relative inline-block text-left">
+          <button
+            type="button"
+            className={button}
+            onClick={() => setIsDropdownOpen((v) => !v)}
+            aria-haspopup="true"
+            aria-expanded={isDropdownOpen}
+          >
+            Previous Years ▾
+          </button>
+          {isDropdownOpen && (
+            <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none border border-gray-100">
+              <div className="py-1">
+                {previousWorkshops.map((item) => (
+                  <a
+                    key={item.label}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                    onClick={() => setIsDropdownOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
       <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
       {/* <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" /> */}
@@ -73,9 +108,6 @@ export default function Home() {
           <div className="mt-4">
             <div className="grid sm:grid-cols-3 grid-cols-2 mt-4 place-items-center">
               {/* <div className="flex flex-col items-center">
-                <img src="huawei.png" alt="Image 1" className="w-[8em] h-auto" />
-              </div> */}
-              <div className="flex flex-col items-center">
                 <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
               </div>
               <div className="flex flex-col items-center">
@@ -83,11 +115,11 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center">
                 <img src="HKU_MMLAB_text.png" alt="Image 1" className="w-[18em] h-auto" />
-              </div>
+              </div>  */}
             </div>
 
             <div className="text-pretty mt-4">
-              Contact: <span className="text-blue-500"> coop-intelligence@googlegroups.com</span> or <span className="text-blue-500"> yuhaibao94@gmail.com</span>.
+              Contact: <span className="text-blue-500"> xiangbog@tamu.edu </span> or <span className="text-blue-500"> yuhengwu@kaist.ac.kr</span>.
             </div>
           </div>
         }
