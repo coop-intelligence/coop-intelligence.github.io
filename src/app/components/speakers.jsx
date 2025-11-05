@@ -84,15 +84,15 @@ const Speakers = () => {
                         link="https://xieenze.github.io/"
                     />
                 </div>
-{/* 
+
                 <div>
                     <PersonAvatar
-                        name="Heejin Ahn"
-                        image=""
-                        affiliation="Korea Advanced Institute of Science and Technology"
-                        link="https://sites.google.com/view/heejinahn/home"
+                        name="Kun Zhan"
+                        image="/kun_zhan.png"
+                        affiliation="Li Auto"
+                        link="https://zhankunliauto.github.io/"
                     />
-                </div> */}
+                </div>
 
                 <div>
                     <PersonAvatar
