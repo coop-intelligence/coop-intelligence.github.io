@@ -19,6 +19,8 @@ const Organizers = ()=>{
             <PersonAvatar name="Ziran Wang" image="/ziran_wang.png" affiliation={"Purdue University"} link={"https://ziranw.github.io/"}/>
             <PersonAvatar name="Yang Zhou" image="/yang_zhou.png" affiliation={"Texas A&M University"} link={"https://sites.google.com/view/yangzhouwebsite"}/>
             <PersonAvatar name="Hao Yang" image="/hao_yang.png" affiliation={"Johns Hopkins University"} link={"https://www.haofrankyang.net/"}/>
+            <PersonAvatar name="Rui Song" image="/song_rui.png" affiliation={"UCLA"} link={"https://rruisong.github.io/"}/>
+            <PersonAvatar name="Fangzhou Lin" image="/lin_fangzhou.png" affiliation={"Texas A&M University"} link={"https://ark1234.github.io/"}/>
             <PersonAvatar name="Zhengzhong Tu" image="/zhengzhong_tu.png" affiliation={"Texas A&M University"} link={"https://vztu.github.io/"}/>
         </div>
 
