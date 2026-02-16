@@ -1,7 +1,21 @@
 const Hero = () => {
   return (
     <div className="w-full flex justify-center px-4 sm:px-0 mt-10">
-      <div className="relative w-full sm:w-[65em] overflow-hidden rounded-3xl bg-gradient-to-br from-sky-500 via-sky-400 to-sky-600 text-white shadow-2xl border border-sky-300/60 px-6 py-8 sm:px-10 sm:py-10">
+      <div
+        className="relative w-full sm:w-[65em] overflow-hidden rounded-3xl text-white shadow-2xl border border-sky-300/60 px-6 py-8 sm:px-10 sm:py-10"
+      >
+        {/* background image filling the entire box */}
+        <div className="absolute inset-0 -z-20">
+          <img
+            src="/bg.png"
+            alt="Denver skyline with mountains"
+            className="w-full h-full object-cover object-center scale-x-[2.2]"
+          />
+        </div>
+
+        {/* subtle dark overlay for text readability */}
+        <div className="absolute inset-0 bg-sky-900/20 -z-10" />
+
         {/* subtle glow orbs */}
         <div className="pointer-events-none absolute -top-10 -left-10 h-40 w-40 rounded-full bg-sky-200/30 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-16 -right-8 h-48 w-48 rounded-full bg-cyan-200/40 blur-3xl" />
