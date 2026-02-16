@@ -3,9 +3,9 @@ import PersonAvatar from "../components/person-avatar";
 
 const InvitedSpeakers = () => {
   return (
-    <SectionCard id="sos-speakers" title="Invited Speakers">
+    <SectionCard id="sos-speakers" title="Invited Speakers" variant="spacious">
       <div>
-        <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
+        <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 sm:gap-8">
           <div>
             <PersonAvatar
               name="Xiaopeng (Shaw) Li"

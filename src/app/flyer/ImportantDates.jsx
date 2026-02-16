@@ -17,17 +17,17 @@ const ImportantDates = () => {
   ];
 
   return (
-    <SectionCard id="sos-dates" title="Important Dates">
-      <div className="divide-y divide-slate-700">
+    <SectionCard id="sos-dates" title="Important Dates" variant="compact">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
         {dates.map((item) => (
           <div
             key={item.label}
-            className="flex flex-col sm:flex-row sm:items-center justify-between py-2"
+            className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-4 border-l-4 border-sky-500"
           >
-            <span className="text-sm sm:text-base">{item.label}</span>
-            <span className="mt-1 sm:mt-0 text-sm font-semibold text-amber-300">
+            <div className="text-xs sm:text-sm text-slate-600 mb-2">{item.label}</div>
+            <div className="text-lg sm:text-xl font-bold text-sky-700">
               {item.date}
-            </span>
+            </div>
           </div>
         ))}
       </div>

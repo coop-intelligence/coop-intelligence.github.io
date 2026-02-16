@@ -1,16 +1,22 @@
-const SectionCard = ({ id, title, children }) => {
+const SectionCard = ({ id, title, children, variant = "default" }) => {
+  const variants = {
+    default: "py-8",
+    compact: "py-6",
+    spacious: "py-12",
+  };
+
   return (
     <section
       id={id}
-      className="w-full flex justify-center px-4 sm:px-0 mt-6"
+      className={`w-full ${variants[variant] || variants.default} border-b border-sky-200/50 last:border-b-0`}
     >
-      <div className="w-full sm:w-[65em] rounded-2xl bg-white text-slate-900 shadow-lg border border-sky-200 overflow-hidden">
+      <div className="w-full px-6 sm:px-10">
         {title && (
-          <div className="px-6 py-3 bg-sky-50 border-b border-sky-200 text-lg sm:text-xl font-semibold text-sky-900">
+          <h2 className="text-xl sm:text-2xl font-bold text-sky-900 mb-4 sm:mb-6 tracking-tight">
             {title}
-          </div>
+          </h2>
         )}
-        <div className="px-6 py-5 text-sm sm:text-base leading-relaxed">
+        <div className="text-sm sm:text-base leading-relaxed text-slate-800">
           {children}
         </div>
       </div>
@@ -19,5 +25,4 @@ const SectionCard = ({ id, title, children }) => {
 };
 
 export default SectionCard;
-
 
