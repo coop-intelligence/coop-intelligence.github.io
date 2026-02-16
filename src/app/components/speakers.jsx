@@ -103,9 +103,9 @@ const Speakers = () => {
                     />
                 </div>
             </div>
-            <p className="text-pretty mt-6">
+            {/* <p className="text-pretty mt-6">
                 <span className="font-bold">Note: </span>We are currently extending invitations to other eminent research scholars, so please stay tuned for updates.
-            </p>
+            </p> */}
         </div>
     );
 };

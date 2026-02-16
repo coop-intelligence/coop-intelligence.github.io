@@ -26,7 +26,7 @@ const Organizers = ()=>{
 
         <br/>
         <p>
-            <span className="font-bold">Contact: </span>If you have any questions, please contact us at: <span className="text-blue-500"> xiangbog@tamu.edu </span> or <span className="text-blue-500"> yuhengwu@kaist.ac.kr</span>.
+            <span className="font-bold">Contact: </span>If you have any questions, please contact us at: <span className="text-blue-500"> meis-cvpr-2026@googlegroups.com </span> or <span className="text-blue-500"> xiangbog@tamu.edu </span>.
         </p>
        
     </div>

@@ -8,7 +8,7 @@ const ImportantDates = () => {
     },
     {
       label: "Notification of acceptance",
-      date: "27 May, 2026",
+      date: "13 May, 2026",
     },
     {
       label: "Workshop date",

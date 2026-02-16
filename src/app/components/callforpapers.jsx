@@ -56,15 +56,15 @@ const CallForPapers = () => {
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Paper submission open: February 1, 2026</li>
-                <li>Paper submission deadline: March 10, 2026</li>
-                <li>Notification of acceptance: March 20, 2026</li>
-                <li>Camera ready: March 31, 2026</li>
+                <li>Paper submission deadline: April 15, 2026</li>
+                <li>Notification of acceptance: May 13, 2026</li>
+                <li>Camera ready: May 20, 2026</li>
             </ul>
             <p className="text-pretty mb-2">
                 <span className="font-bold text-lg">Submission Guidance</span>
             </p>
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li>Submission Portal: <a href="tbd" className="text-blue-500">Openreview (Upcoming)</a> </li>
+                <li>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/MEIS&referrer=%5BHomepage%5D(%2F)#tab-your-consoles" className="text-blue-500">Openreview</a> </li>
                 <li>Submission format: Submissions must follow the CVPR 2026 template (<a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines" className="text-blue-500">here</a>) and will be peer-reviewed in a double-blind manner. 
                     Submission must be no more than 8 pages (excluding references). 
                     By default, accepted papers will be included in the CVPR workshop proceedings. 

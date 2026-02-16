@@ -37,6 +37,10 @@ const OrganizingCommittee = () => {
           </span>
         ))}
       </p>
+      <br />
+      <p className="text-sm sm:text-base">
+        <span className="font-bold">Contact: </span>If you have any questions, please contact us at: <span className="text-blue-500"> meis-cvpr-2026@googlegroups.com </span> or <span className="text-blue-500"> xiangbog@tamu.edu </span>.
+      </p>
     </SectionCard>
   );
 };

@@ -106,20 +106,22 @@ export default function Home() {
       <Section title={"Sponsors"}
         body={
           <div className="mt-4">
-            <div className="grid sm:grid-cols-3 grid-cols-2 mt-4 place-items-center">
-              {/* <div className="flex flex-col items-center">
-                <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
+            <div>
+              <p className="font-semibold mb-3">Best Paper Award Sponsor</p>
+              <div className="flex flex-col items-center space-y-3">
+                <img
+                  src="/Qualcomm-Logo.wine.png"
+                  alt="Qualcomm"
+                  className="w-56 sm:w-72 h-auto drop-shadow-lg"
+                />
+                <p className="text-sm text-center">
+                  The MEIS Best Paper Award is generously sponsored by Qualcomm.
+                </p>
               </div>
-              <div className="flex flex-col items-center">
-                <img src="dataoceanai.png" alt="Image 1" className="w-[25em] h-auto" />
-              </div>
-              <div className="flex flex-col items-center">
-                <img src="HKU_MMLAB_text.png" alt="Image 1" className="w-[18em] h-auto" />
-              </div>  */}
             </div>
 
             <div className="text-pretty mt-4">
-              Contact: <span className="text-blue-500"> xiangbog@tamu.edu </span> or <span className="text-blue-500"> yuhengwu@kaist.ac.kr</span>.
+              Contact: <span className="text-blue-500"> xiangbog@tamu.edu </span> or <span className="text-blue-500"> meis-cvpr-2026@googlegroups.com </span>.
             </div>
           </div>
         }
