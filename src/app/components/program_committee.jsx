@@ -1,8 +1,34 @@
-import CommitteeAvatar from "./program-avatar";
-
 const ProgramCommittee = ()=>{
-    return <div className="text-justify mt-4"> 
-        Upcoming
+    const pcMembers = [
+        "Xiangbo Gao",
+        "Yuheng Wu",
+        "Walter Zimmer",
+        "Ross Greer",
+        "Bernadette Bucher",
+        "Zilin Huang",
+        "Yue Hu",
+        "Can Cui",
+        "Fangzhou Lin",
+        "Haibao Yu",
+        "Yuping Wang",
+        "Rui Song",
+        "Zhiwen Fan",
+        "Jiachen Li",
+        "Dongman Lee",
+        "Hao Frank Yang",
+        "Ziran Wang",
+        "Yang Zhou",
+        "Zhengzhong Tu",
+    ];
+
+    return <div className="text-justify mt-2"> 
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-1.5 mt-2">
+            {pcMembers.map((name) => (
+                <div key={name} className="bg-white rounded px-2 py-1 text-sm leading-snug shadow-sm border border-gray-100">
+                    {name}
+                </div>
+            ))}
+        </div>
         {/* <div className="grid sm:grid-cols-5 grid-cols-2 mt-4">
             <CommitteeAvatar name="Jiahao Wang" affiliation="Tsinghua University"/>
             <CommitteeAvatar name="Jiahui Xu" affiliation="Beijing Institute of Technology"/>

@@ -106,17 +106,13 @@ export default function Home() {
       <Section title={"Sponsors"}
         body={
           <div className="mt-4">
-            <div>
-              <p className="font-semibold mb-3">Best Paper Award Sponsor</p>
+            <div className="bg-gradient-to-br from-sky-700 via-sky-600 to-cyan-600 rounded-lg p-6 sm:p-8 shadow-lg">
               <div className="flex flex-col items-center space-y-3">
                 <img
-                  src="/Qualcomm-Logo.wine.png"
-                  alt="Qualcomm"
-                  className="w-56 sm:w-72 h-auto drop-shadow-lg"
+                  src="/sponsor.png"
+                  alt="AxisRobotics"
+                  className="w-[250px] sm:w-500 h-auto drop-shadow-lg"
                 />
-                <p className="text-sm text-center">
-                  The MEIS Best Paper Award is generously sponsored by Qualcomm.
-                </p>
               </div>
             </div>
 
