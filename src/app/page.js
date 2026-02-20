@@ -38,44 +38,42 @@ export default function Home() {
         mybutton.style.display = "none";
     }
   }
-  const button = "hover:cursor-pointer text-[#01305f] hover:text-white border border-[#01305f] hover:bg-[#01305f] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2"
+
+  const navItems = [
+    { label: "Call for Papers", href: "#callforpapers" },
+    { label: "Challenges", href: "#challenge" },
+    { label: "Schedule", href: "#schedule" },
+    { label: "Speakers", href: "#speakers" },
+    { label: "Organizers", href: "#organizers" },
+    { label: "Sponsors", href: "#sponsors" },
+  ];
+
   return (
-    <main className="flex min-h-screen flex-col items-center   sm:px-24 px-4 ">
-      <div className="sm:flex flex-row grid mt-10 sm:w-[65em] w-full justify-center items-start">
-        <a className={button} href="#callforpapers">
-          Call for Papers
-        </a>
-        <a className={button} href="#challenge">
-          Challenges
-        </a>
-        <a className={button} href="#schedule">
-          Schedule
-        </a>
-        <a className={button} href="#speakers">
-          Speakers
-        </a>
-        <a className={button} href="#organizers">
-          Organizers
-        </a>
-        {/* <a className={button} href="#programcommittee">
-          Program Committee
-        </a> */}
-        <a className={button} href="#sponsors">
-          Sponsors
-        </a>
+    <main className="flex min-h-screen flex-col items-center sm:px-24 px-4">
+      {/* Navigation Pills */}
+      <div className="sm:flex flex-row grid grid-cols-2 mt-10 sm:w-[65em] w-full justify-center items-start gap-2 sm:gap-0">
+        {navItems.map((item) => (
+          <a
+            key={item.label}
+            className="nav-pill hover:cursor-pointer text-[#01305f] border border-[#01305f]/20 bg-white hover:text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center sm:me-3 mb-2 shadow-sm"
+            href={item.href}
+          >
+            <span>{item.label}</span>
+          </a>
+        ))}
 
         <div className="relative inline-block text-left">
           <button
             type="button"
-            className={button}
+            className="nav-pill hover:cursor-pointer text-[#01305f] border border-[#01305f]/20 bg-white hover:text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2 shadow-sm"
             onClick={() => setIsDropdownOpen((v) => !v)}
             aria-haspopup="true"
             aria-expanded={isDropdownOpen}
           >
-            Previous Years ▾
+            <span>Previous Years ▾</span>
           </button>
           {isDropdownOpen && (
-            <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none border border-gray-100">
+            <div className="absolute right-0 z-10 mt-1 w-56 origin-top-right rounded-lg bg-white shadow-xl ring-1 ring-black/5 border border-gray-100 backdrop-blur-sm">
               <div className="py-1">
                 {previousWorkshops.map((item) => (
                   <a
@@ -83,7 +81,7 @@ export default function Home() {
                     href={item.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                    className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-sky-50 hover:text-sky-700 transition-colors"
                     onClick={() => setIsDropdownOpen(false)}
                   >
                     {item.label}
@@ -94,6 +92,44 @@ export default function Home() {
           )}
         </div>
       </div>
+
+      {/* Awards & Recognition Banner */}
+      <div className="sm:w-[65em] w-full mt-8">
+        <div className="relative overflow-hidden rounded-xl bg-gradient-to-r from-amber-50 via-yellow-50/80 to-amber-50 border border-amber-200/60 shadow-sm awards-shimmer">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(251,191,36,0.08),transparent_50%),radial-gradient(circle_at_80%_50%,rgba(251,191,36,0.08),transparent_50%)]" />
+          <div className="relative flex flex-wrap items-center justify-center gap-x-8 gap-y-3 px-6 py-4">
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">🏆</span>
+              <div>
+                <span className="font-bold text-amber-800">Best Paper Award</span>
+                <span className="ml-2 font-bold text-amber-600 bg-amber-100/80 px-2 py-0.5 rounded-full text-sm">$400</span>
+              </div>
+            </div>
+            <div className="w-px h-6 bg-amber-300/50 hidden sm:block" />
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">🏆</span>
+              <div>
+                <span className="font-bold text-amber-800">Best Paper Runner-Up</span>
+                <span className="ml-2 font-bold text-amber-600 bg-amber-100/80 px-2 py-0.5 rounded-full text-sm">$300</span>
+              </div>
+            </div>
+            <div className="w-px h-6 bg-amber-300/50 hidden sm:block" />
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">🏆</span>
+              <div>
+                <span className="font-bold text-amber-800">Best Demo Award</span>
+                <span className="ml-2 font-bold text-amber-600 bg-amber-100/80 px-2 py-0.5 rounded-full text-sm">$300</span>
+              </div>
+            </div>
+            <div className="w-px h-6 bg-amber-300/50 hidden sm:block" />
+            <div className="flex items-center gap-2">
+              <span className="text-2xl">🎙️</span>
+              <span className="font-bold text-sky-800">Oral Presentation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <Section title={""} body={<Workshop />} className={"mt-8"} id="workshop" />
       {/* <Section title={"Accepted Papers"} body={<AcceptedPapers />} id="acceptedpapers" /> */}
       <Section title={"Call for Papers"} body={<CallForPapers />} id="callforpapers" />
@@ -106,7 +142,7 @@ export default function Home() {
       <Section title={"Sponsors"}
         body={
           <div className="mt-4">
-            <div className="bg-gradient-to-br from-sky-700 via-sky-600 to-cyan-600 rounded-lg p-6 sm:p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-sky-700 via-sky-600 to-cyan-600 rounded-xl p-6 sm:p-8 shadow-lg ring-1 ring-sky-500/20">
               <div className="flex flex-col items-center space-y-3">
                 <img
                   src="/sponsor.png"
@@ -116,18 +152,20 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="text-pretty mt-4">
-              Contact: <span className="text-blue-500"> xiangbog@tamu.edu </span> or <span className="text-blue-500"> meis-cvpr-2026@googlegroups.com </span>.
+            <div className="mt-5 bg-gradient-to-r from-slate-50 to-transparent rounded-lg px-4 py-3">
+              <span className="font-bold">Contact: </span>
+              If you have any questions, please contact us at:{" "}
+              <span className="text-sky-600 font-semibold">meis-cvpr-2026@googlegroups.com</span> or{" "}
+              <span className="text-sky-600 font-semibold">xiangbog@tamu.edu</span>.
             </div>
           </div>
         }
         id="sponsors" />
       <div className="fixed bottom-6 right-6">
-        <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
+        <button id="backToTop" className="bg-[#01305f] hover:bg-sky-700 text-white font-bold py-4 px-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M33.7879 60H26.2121V14.5455L5.37879 35.3788L0 30L30 0L60 30L54.6212 35.3788L33.7879 14.5455V60Z" fill="white" />
           </svg>
-
         </button>
       </div>
     </main>

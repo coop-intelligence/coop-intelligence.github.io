@@ -76,14 +76,14 @@ const Speakers = () => {
                     />
                 </div>
 
-                <div>
+                {/* <div>
                     <PersonAvatar
                         name="Enze Xie"
                         image="/enze_xie.png"
                         affiliation="NVIDIA"
                         link="https://xieenze.github.io/"
                     />
-                </div>
+                </div> */}
 
                 <div>
                     <PersonAvatar

@@ -5,6 +5,7 @@ import ImportantDates from "./ImportantDates";
 import AwardsSupport from "./AwardsSupport";
 import InvitedSpeakers from "./InvitedSpeakers";
 import OrganizingCommittee from "./OrganizingCommittee";
+import ProgramCommittee from "./ProgramCommittee";
 import ContactSponsors from "./ContactSponsors";
 import HeaderHider from "./HeaderHider";
 
@@ -23,7 +24,7 @@ export default function SenseOfSpacePage() {
           className="w-full h-full object-cover object-center opacity-30"
         />
       </div>
-      
+
       {/* soft background accents */}
       <div className="pointer-events-none absolute inset-0 opacity-60">
         <div className="absolute -top-32 left-10 h-64 w-64 rounded-full bg-sky-200/60 blur-3xl" />
@@ -38,10 +39,11 @@ export default function SenseOfSpacePage() {
           <div className="bg-white/95 backdrop-blur-sm">
             <Overview />
             {/* <CallForPapers /> */}
-            <ImportantDates />
+            {/* <ImportantDates /> */}
             {/* <AwardsSupport /> */}
             <InvitedSpeakers />
             <OrganizingCommittee />
+            <ProgramCommittee />
             <ContactSponsors />
           </div>
         </div>

@@ -2,11 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
- 
-  background: white;
+  background: #fafbfe;
 }
 
 @layer utilities {
@@ -14,20 +11,71 @@ body {
     text-wrap: balance;
   }
 }
+
 html {
   scroll-behavior: smooth;
- }
-.header{
+}
+
+.header {
   display: flex;
-  justify-content:center;
-  height: 20em;
+  justify-content: center;
+  min-height: 16em;
   color: white;
   background-color: #01305f;
 }
-footer{
+
+footer {
   display: flex;
-  justify-content:center;
-  height: 10em;
+  justify-content: center;
   color: white;
   background-color: #01305f;
+}
+
+/* Smooth hover transitions for nav buttons */
+.nav-pill {
+  @apply relative overflow-hidden transition-all duration-300 ease-out;
+}
+
+.nav-pill::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-[#01305f] to-sky-700 opacity-0 transition-opacity duration-300;
+}
+
+.nav-pill:hover::before {
+  @apply opacity-100;
+}
+
+.nav-pill:hover {
+  @apply text-white border-[#01305f] shadow-lg shadow-sky-900/10 -translate-y-0.5;
+}
+
+.nav-pill span {
+  @apply relative z-10;
+}
+
+/* Awards banner shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.awards-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(251, 191, 36, 0.06) 25%,
+    rgba(251, 191, 36, 0.12) 50%,
+    rgba(251, 191, 36, 0.06) 75%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+/* Topic card hover effect */
+.topic-card {
+  @apply transition-all duration-200 ease-out;
+}
+.topic-card:hover {
+  @apply -translate-y-0.5 shadow-md;
 }

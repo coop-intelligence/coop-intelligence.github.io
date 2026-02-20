@@ -1,23 +1,21 @@
+// Xiangbo Gao xiangbog@tamu.edu
+// Yuheng Wu yuhengwu@kaist.ac.kr
+// Pardis Taghavi ptgh@tamu.edu
+// Jiaru Zhong zhong.jiaru@outlook.com
+// Zhengzhong Tu tzz@tamu.edu
+// Jiahao Wang wjh22@mails.tsinghua.edu.cn
+// Abhishek Dharmaratnakar dharmaratnakar@google.com
+// Xiukun Huang xiukunhg@gmail.com
+
 const ProgramCommittee = ()=>{
     const pcMembers = [
-        "Xiangbo Gao",
+        "Xiangbo Gao", 
         "Yuheng Wu",
-        "Walter Zimmer",
-        "Ross Greer",
-        "Bernadette Bucher",
-        "Zilin Huang",
-        "Yue Hu",
-        "Can Cui",
-        "Fangzhou Lin",
-        "Haibao Yu",
-        "Yuping Wang",
-        "Rui Song",
-        "Zhiwen Fan",
-        "Jiachen Li",
-        "Dongman Lee",
-        "Hao Frank Yang",
-        "Ziran Wang",
-        "Yang Zhou",
+        "Pardis Taghavi",
+        "Jiaru Zhong",
+        "Jiahao Wang",
+        "Abhishek Dharmaratnakar",
+        "Xiukun Huang",
         "Zhengzhong Tu",
     ];
 

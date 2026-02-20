@@ -8,10 +8,6 @@ const AwardsSupport = () => {
           <span className="font-semibold">MEIS Best Paper Award</span>{" "}
           sponsored by Qualcomm, with monetary prizes.
         </li>
-        <li>
-          <span className="font-semibold">Travel support</span> for selected
-          in-person presenters (subject to availability).
-        </li>
       </ul>
     </SectionCard>
   );
