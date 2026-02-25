@@ -8,13 +8,12 @@ const Overview = () => {
         <span className="font-bold text-sky-700">
           Multi-Agent Embodied Intelligent Systems
         </span>{" "}
-        in the era of large vision–language and foundation models, aiming to understand how agents with perception,
-        language, and reasoning can collaborate with each other and with humans to act safely and effectively in complex real-world environments.
+        in the era of large vision–language and foundation models, aiming to understand how agents can collaborate with each other and with humans to act safely and effectively in complex real-world environments.
         We bring together researchers in {" "}
         <span className="font-semibold text-sky-700">foundation models</span>,{" "}
         <span className="font-semibold text-sky-700">multi-agent systems</span>,{" "}
         <span className="font-semibold text-sky-700">simulation and evaluation</span>, and{" "}
-        <span className="font-semibold text-sky-700">human–agent interaction</span>, spanning real-world applications (e.g., autonomous driving, robotics) and core challenges in robustness, safety, explainability, and alignment.
+        <span className="font-semibold text-sky-700">human–agent interaction</span>, spanning real-world applications and core challenges in robustness, safety, explainability, and alignment.
       </p>
       {/* Topics + Important Dates side by side */}
       <div className="grid grid-cols-[4fr_2fr] gap-2">
@@ -24,20 +23,20 @@ const Overview = () => {
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-sky-500" />
             Representative Topics
           </p>
-          <ul className="space-y-0.5 text-[10px] text-slate-700">
-            <li className="flex items-start">
+          <ul className="text-[10px] text-slate-700 mt-0.5 flex flex-col gap-0">
+            <li className="flex items-start leading-[1.15] mb-[2px]">
               <span className="text-sky-400 mr-1 font-bold">›</span>
               <span>Foundation models and architectures for cooperative embodied agents</span>
             </li>
-            <li className="flex items-start">
+            <li className="flex items-start leading-[1.15] mb-[2px]">
               <span className="text-sky-400 mr-1 font-bold">›</span>
               <span>Multi-agent collaboration, communication, and decision-making</span>
             </li>
-            <li className="flex items-start">
+            <li className="flex items-start leading-[1.15] mb-[2px]">
               <span className="text-sky-400 mr-1 font-bold">›</span>
               <span>Simulation platforms, datasets, and benchmarks for cooperative systems</span>
             </li>
-            <li className="flex items-start">
+            <li className="flex items-start leading-[1.15]">
               <span className="text-sky-400 mr-1 font-bold">›</span>
               <span>Human–agent interaction, safety, ethics, and interpretability</span>
             </li>
@@ -49,17 +48,29 @@ const Overview = () => {
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-sky-500" />
             Important Dates
           </p>
-          <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-1.5 border border-sky-200/60 shadow-sm flex items-baseline justify-between gap-1">
-            <span className="text-[9px] text-slate-500 font-medium">Submission</span>
-            <span className="text-[11px] font-bold text-sky-700">15 Apr, 2026</span>
-          </div>
-          <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-1.5 border border-sky-200/60 shadow-sm flex items-baseline justify-between gap-1">
-            <span className="text-[9px] text-slate-500 font-medium">Notification</span>
-            <span className="text-[11px] font-bold text-sky-700">13 May, 2026</span>
-          </div>
-          <div className="bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-1.5 border border-sky-200/60 shadow-sm flex items-baseline justify-between gap-1">
-            <span className="text-[9px] text-slate-500 font-medium">Workshop</span>
-            <span className="text-[11px] font-bold text-sky-700">June 3, 2026</span>
+          <div className="flex gap-1.5">
+            <div className="flex-1 bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-1.5 border border-sky-200/60 shadow-sm">
+              <div className="text-[8px] font-bold text-sky-900 mb-0.5 leading-tight">Archival Track</div>
+              <div className="flex justify-between items-baseline">
+                <span className="text-[8px] text-slate-500">Submission:</span>
+                <span className="text-[8px] font-bold text-sky-700">1 Apr</span>
+              </div>
+              <div className="flex justify-between items-baseline">
+                <span className="text-[8px] text-slate-500">Notification:</span>
+                <span className="text-[8px] font-bold text-sky-700">5 Apr</span>
+              </div>
+            </div>
+            <div className="flex-1 bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-1.5 border border-sky-200/60 shadow-sm">
+              <div className="text-[8px] font-bold text-sky-900 mb-0.5 leading-tight">Non-Archival</div>
+              <div className="flex justify-between items-baseline">
+                <span className="text-[8px] text-slate-500">Submission:</span>
+                <span className="text-[8px] font-bold text-sky-700">15 Apr</span>
+              </div>
+              <div className="flex justify-between items-baseline">
+                <span className="text-[8px] text-slate-500">Notification:</span>
+                <span className="text-[8px] font-bold text-sky-700">13 May</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

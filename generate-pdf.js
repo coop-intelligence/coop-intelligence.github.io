@@ -9,7 +9,8 @@ const puppeteer = require('puppeteer');
 
     console.log('Navigating to http://localhost:3001/flyer ...');
     await page.emulateMediaType('screen');
-    await page.goto('http://localhost:3001/flyer', { waitUntil: 'networkidle0' });
+    await page.goto('http://localhost:3001/flyer', { waitUntil: 'networkidle2', timeout: 60000 });
+    await new Promise(r => setTimeout(r, 2000));
 
     // Get actual content height
     const bodyHeight = await page.evaluate(() => {

@@ -125,22 +125,53 @@ const CallForPapers = () => {
                     Important Dates
                 </span>
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-3 mb-8">
-                <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
-                    <div className="text-xs text-slate-500 font-medium mb-1">Paper Submission Open</div>
-                    <div className="font-bold text-sky-700 text-lg">Feb 1, 2026</div>
+            <div className="mb-6">
+                <h4 className="font-semibold text-slate-700 mb-3 ml-1 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                    Archival Track
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Paper Submission Open</div>
+                        <div className="font-bold text-sky-700 text-lg">Feb 1, 2026</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Submission Deadline</div>
+                        <div className="font-bold text-sky-700 text-lg">Apr 1, 2026</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Notification</div>
+                        <div className="font-bold text-sky-700 text-lg">Apr 5, 2026</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Camera Ready</div>
+                        <div className="font-bold text-sky-700 text-lg">Apr 10, 2026</div>
+                    </div>
                 </div>
-                <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
-                    <div className="text-xs text-slate-500 font-medium mb-1">Submission Deadline</div>
-                    <div className="font-bold text-sky-700 text-lg">Apr 15, 2026</div>
-                </div>
-                <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
-                    <div className="text-xs text-slate-500 font-medium mb-1">Notification</div>
-                    <div className="font-bold text-sky-700 text-lg">May 13, 2026</div>
-                </div>
-                <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
-                    <div className="text-xs text-slate-500 font-medium mb-1">Camera Ready</div>
-                    <div className="font-bold text-sky-700 text-lg">May 20, 2026</div>
+            </div>
+
+            <div className="mb-8">
+                <h4 className="font-semibold text-slate-700 mb-3 ml-1 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
+                    Non-Archival Track
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Paper Submission Open</div>
+                        <div className="font-bold text-sky-700 text-lg">Feb 1, 2026</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Submission Deadline</div>
+                        <div className="font-bold text-sky-700 text-lg">Apr 15, 2026</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Notification</div>
+                        <div className="font-bold text-sky-700 text-lg">May 13, 2026</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
+                        <div className="text-xs text-slate-500 font-medium mb-1">Camera Ready</div>
+                        <div className="font-bold text-sky-700 text-lg">May 20, 2026</div>
+                    </div>
                 </div>
             </div>
 
@@ -155,7 +186,11 @@ const CallForPapers = () => {
                 <ul className="list-none space-y-3">
                     <li className="flex items-start gap-2">
                         <span className="text-sky-400 mt-0.5 font-bold">›</span>
-                        <span>Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/MEIS&referrer=%5BHomepage%5D(%2F)#tab-your-consoles" className="text-sky-600 hover:text-sky-700 font-semibold underline decoration-sky-300 underline-offset-2 hover:decoration-sky-500 transition-colors">OpenReview</a></span>
+                        <span> Archival Track Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/MEIS&referrer=%5BHomepage%5D(%2F)#tab-your-consoles" className="text-sky-600 hover:text-sky-700 font-semibold underline decoration-sky-300 underline-offset-2 hover:decoration-sky-500 transition-colors">OpenReview</a></span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                        <span className="text-sky-400 mt-0.5 font-bold">›</span>
+                        <span> Non-Archival Track Submission Portal: <span className="text-slate-500 italic">To be released</span></span>
                     </li>
                     <li className="flex items-start gap-2">
                         <span className="text-sky-400 mt-0.5 font-bold">›</span>
