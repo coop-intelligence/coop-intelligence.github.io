@@ -53,11 +53,11 @@ const Overview = () => {
               <div className="text-[8px] font-bold text-sky-900 mb-0.5 leading-tight">Archival Track</div>
               <div className="flex justify-between items-baseline">
                 <span className="text-[8px] text-slate-500">Submission:</span>
-                <span className="text-[8px] font-bold text-sky-700">10 Mar</span>
+                <span className="text-[8px] font-bold text-sky-700">10 March</span>
               </div>
               <div className="flex justify-between items-baseline">
                 <span className="text-[8px] text-slate-500">Notification:</span>
-                <span className="text-[8px] font-bold text-sky-700">15 Mar</span>
+                <span className="text-[8px] font-bold text-sky-700">15 March</span>
               </div>
             </div>
             <div className="flex-1 bg-gradient-to-br from-sky-50 to-cyan-50 rounded-lg p-1.5 border border-sky-200/60 shadow-sm">

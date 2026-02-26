@@ -2,9 +2,9 @@ import SectionCard from "./SectionCard";
 
 const ImportantDates = () => {
   const dates = [
-    { label: "Archival Submission", date: "10 Mar, 2026" },
-    { label: "Non-Archival Submission", date: "15 Apr, 2026" },
-    { label: "Archival Notification", date: "15 Mar, 2026" },
+    { label: "Archival Submission", date: "10 March, 2026" },
+    { label: "Non-Archival Submission", date: "15 April, 2026" },
+    { label: "Archival Notification", date: "15 March, 2026" },
     { label: "Non-Archival Notification", date: "13 May, 2026" },
   ];
 
