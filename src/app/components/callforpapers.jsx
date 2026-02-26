@@ -137,15 +137,15 @@ const CallForPapers = () => {
                     </div>
                     <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
                         <div className="text-xs text-slate-500 font-medium mb-1">Submission Deadline</div>
-                        <div className="font-bold text-sky-700 text-lg">Apr 1, 2026</div>
+                        <div className="font-bold text-sky-700 text-lg">Mar 10, 2026</div>
                     </div>
                     <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
                         <div className="text-xs text-slate-500 font-medium mb-1">Notification</div>
-                        <div className="font-bold text-sky-700 text-lg">Apr 5, 2026</div>
+                        <div className="font-bold text-sky-700 text-lg">Mar 15, 2026</div>
                     </div>
                     <div className="bg-gradient-to-br from-sky-50 to-blue-50/50 rounded-xl p-4 border border-sky-100 shadow-sm text-center">
                         <div className="text-xs text-slate-500 font-medium mb-1">Camera Ready</div>
-                        <div className="font-bold text-sky-700 text-lg">Apr 10, 2026</div>
+                        <div className="font-bold text-sky-700 text-lg">Mar 20, 2026</div>
                     </div>
                 </div>
             </div>
