@@ -12,7 +12,7 @@ const Speakers = () => {
                         link="https://engineering.wisc.edu/directory/profile/xiaopeng-li/"
                     />
                 </div>
-                
+
                 <div>
                     <PersonAvatar
                         name="Siheng Chen"
@@ -85,14 +85,14 @@ const Speakers = () => {
                     />
                 </div> */}
 
-                <div>
+                {/* <div>
                     <PersonAvatar
                         name="Kun Zhan"
                         image="/kun_zhan.png"
                         affiliation="Li Auto"
                         link="https://zhankunliauto.github.io/"
                     />
-                </div>
+                </div> */}
 
                 <div>
                     <PersonAvatar

@@ -190,7 +190,7 @@ const CallForPapers = () => {
                     </li>
                     <li className="flex items-start gap-2">
                         <span className="text-sky-400 mt-0.5 font-bold">›</span>
-                        <span> Non-Archival Track Submission Portal: <span className="text-slate-500 italic">To be released</span></span>
+                        <span> Non-Archival Track Submission Portal: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/MEIS_Non-Archival_Track#tab-your-consoles" className="text-sky-600 hover:text-sky-700 font-semibold underline decoration-sky-300 underline-offset-2 hover:decoration-sky-500 transition-colors">OpenReview</a></span>
                     </li>
                     <li className="flex items-start gap-2">
                         <span className="text-sky-400 mt-0.5 font-bold">›</span>
