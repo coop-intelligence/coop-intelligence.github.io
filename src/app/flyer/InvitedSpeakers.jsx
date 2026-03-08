@@ -15,7 +15,7 @@ const InvitedSpeakers = () => {
           <PersonAvatar imageClass="w-[4.5em] h-[4.5em]" nameClass="text-[11px]" affilClass="text-[9px]" name="Bolei Zhou" image="/bolei_zhou.png" affiliation="UCLA" link="https://boleizhou.github.io/" />
           <PersonAvatar imageClass="w-[4.5em] h-[4.5em]" nameClass="text-[11px]" affilClass="text-[9px]" name="Marco Pavone" image="/marco_pavone.jpeg" affiliation="Stanford" link="https://research.nvidia.com/person/marco-pavone" />
           {/* <PersonAvatar imageClass="w-[4.5em] h-[4.5em]" nameClass="text-[11px]" affilClass="text-[9px]" name="Kun Zhan" image="/kun_zhan.png" affiliation="Li Auto" link="https://zhankunliauto.github.io/" /> */}
-          <PersonAvatar imageClass="w-[4.5em] h-[4.5em]" nameClass="text-[11px]" affilClass="text-[9px]" name="Peihao Li" image="/kun_zhan.png" affiliation="Li Auto" link="https://zhankunliauto.github.io/" />
+          <PersonAvatar imageClass="w-[4.5em] h-[4.5em]" nameClass="text-[11px]" affilClass="text-[9px]" name="Yangjia Huang" image="/yanjia_huang.png" affiliation="Axis Robotics" link="https://huangyanjia.github.io/" />
           <PersonAvatar imageClass="w-[4.5em] h-[4.5em]" nameClass="text-[11px]" affilClass="text-[9px]" name="Manabu Tsukada" image="/manabu_tsukada.png" affiliation="U of Tokyo" link="https://tlab.hongo.wide.ad.jp/People/manabu-tsukada/" />
         </div>
       </div>

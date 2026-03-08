@@ -194,10 +194,27 @@ const CallForPapers = () => {
                     </li>
                     <li className="flex items-start gap-2">
                         <span className="text-sky-400 mt-0.5 font-bold">›</span>
-                        <span>Submission format: Submissions must follow the CVPR 2026 template (<a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines" className="text-sky-600 hover:text-sky-700 font-semibold underline decoration-sky-300 underline-offset-2 hover:decoration-sky-500 transition-colors">here</a>) and will be peer-reviewed in a double-blind manner.
-                            Submission must be no more than 8 pages (excluding references).
-                            By default, accepted papers will be included in the CVPR workshop proceedings.
-                            Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions.</span>
+                        <div className="flex flex-col gap-2">
+                            <span>
+                                <strong>Submission format:</strong> Submissions must follow the CVPR 2026 template (<a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines" className="text-sky-600 hover:text-sky-700 font-semibold underline decoration-sky-300 underline-offset-2 hover:decoration-sky-500 transition-colors">here</a>) and will be peer-reviewed in a double-blind manner. Accepted papers will be presented in the form of posters, with several papers being selected for spotlight sessions.
+                            </span>
+                            <div className="mt-2 text-sm bg-sky-50/50 p-4 rounded-lg border border-sky-100">
+                                <div className="mb-3">
+                                    <span className="font-bold text-sky-900 block mb-1">Archival Track:</span>
+                                    <span className="text-slate-700 block">
+                                        Maximum of 8 pages (excluding references). Accepted papers will be included in the official CVPR 2026 Workshop Proceedings published by IEEE, receive a DOI, and be indexed in digital libraries. These are considered formal publications. <br />
+                                        <strong className="font-semibold text-slate-900">Deadline:</strong> March 10, 2026, 11:59 PM Anywhere on Earth (AoE).
+                                    </span>
+                                </div>
+                                <div>
+                                    <span className="font-bold text-sky-900 block mb-1">Non-Archival Track:</span>
+                                    <span className="text-slate-700 block">
+                                        Maximum of 4 pages (excluding references). This track is for work-in-progress or recently published research. These papers will not be included in the proceedings and will not receive a DOI, allowing you to submit the work to other venues in the future. <br />
+                                        <strong className="font-semibold text-slate-900">Deadline:</strong> April 15, 2026, 11:59 PM Anywhere on Earth (AoE).
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

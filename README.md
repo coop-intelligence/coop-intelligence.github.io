@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MEIS Workshop Website
+
+This is the project for the MEIS Workshop website (3rd MEIS Workshop @ CVPR 2026).
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Install Dependencies
 ```bash
-set PATH=%PATH%;C:\Program Files\nodejs\
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Run Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Flyer & PDF Generation
 
-## Learn More
+This website includes a dedicated flyer page and a script to convert it into a high-quality A4 PDF.
 
-To learn more about Next.js, take a look at the following resources:
+### 1. View Flyer
+The flyer is accessible at the `/flyer` route:
+[http://localhost:3000/flyer](http://localhost:3000/flyer)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Generate PDF
+To generate a new `flyer.pdf`, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Start the server on port 3001**:
+   ```bash
+   npm run dev -- -p 3001
+   ```
 
-## Deploy on Vercel
+2. **Run the generation script**:
+   In another terminal window, run:
+   ```bash
+   node generate-pdf.js
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The script uses **Puppeteer** to capture a high-resolution screenshot of the `/flyer` page and saves it as an A4-formatted `flyer.pdf` in the root directory.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
 
 ## Acknowledgments
-We develop this website based on [Lava workshop](https://lava-workshop.github.io/). We acknowledge their efforts.
+Based on [Lava workshop](https://lava-workshop.github.io/).
