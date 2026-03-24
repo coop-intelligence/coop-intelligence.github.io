@@ -17,6 +17,7 @@ const ProgramCommittee = () => {
         { name: "Abhishek Dharmaratnakar", link: "https://scholar.google.com/citations?user=bsyOWJgAAAAJ&hl=en" },
         { name: "Xiukun Huang", link: "https://scholar.google.com/citations?user=34i3PdoAAAAJ&hl=en" },
         { name: "Zhengzhong Tu", link: "https://vztu.github.io/" },
+        { name: "Yuping Wang", link: "" },
     ];
 
     return <div className="text-justify mt-2">
