@@ -37,7 +37,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center justify-center gap-3 mt-4 mb-2">
                     <span className="text-[0.5em] text-white/90 font-semibold flex items-center gap-1.5">
-                        📅 Wed June 3, 2026
+                        📅 Thu June 4, 2026
                     </span>
                     <span className="w-px h-4 bg-sky-300/30" />
                     <span className="text-[0.5em] text-white/90 font-semibold flex items-center gap-1.5">

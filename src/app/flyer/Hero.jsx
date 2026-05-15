@@ -39,7 +39,7 @@ const Hero = () => {
         </p>
         <div className="mt-2 pt-1.5 border-t border-sky-200/20">
           <p className="text-center text-xs sm:text-sm font-semibold tracking-wide">
-            📍 Wednesday, June 3, 2026 • Denver, CO, USA
+            📍 Thursday, June 4, 2026 • Denver, CO, USA
           </p>
           <p className="mt-0.5 text-center text-[9px] sm:text-[10px] text-sky-200/80">
             In conjunction with the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)

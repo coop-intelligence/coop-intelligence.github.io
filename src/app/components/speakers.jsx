@@ -15,24 +15,6 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Siheng Chen"
-                        image="/siheng_chen.jpg"
-                        affiliation="Shanghai Jiao Tong University"
-                        link="https://siheng-chen.github.io/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
-                        name="Henry Liu"
-                        image="/henry_liu.png"
-                        affiliation="University of Michigan, Ann Arbor"
-                        link="https://traffic.engin.umich.edu/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
                         name="Bernadette Bucher"
                         image="/Bernadette_Bucher.png"
                         affiliation="University of Michigan, Ann Arbor"
@@ -55,6 +37,15 @@ const Speakers = () => {
                         image="/angela_dai.png"
                         affiliation="Technical University of Munich"
                         link="https://www.3dunderstanding.org/team.html"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Yanjia Huang"
+                        image="/yanjia_huang.png"
+                        affiliation="Texas A&M University"
+                        link="https://huangyanjia.github.io/"
                     />
                 </div>
 
