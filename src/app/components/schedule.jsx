@@ -38,7 +38,7 @@ const scheduleItems = [
         type: "keynote",
         session: "Keynote 3",
         speaker: "Bolei Zhou",
-        topic: "TBD",
+        topic: "Scalable Physical AI for Sidewalk Autonomy",
     },
     {
         time: "11:00 - 11:30",
