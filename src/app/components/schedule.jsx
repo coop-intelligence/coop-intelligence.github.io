@@ -69,7 +69,7 @@ const scheduleItems = [
         type: "keynote",
         session: "Keynote 6",
         speaker: "Angela Dai",
-        topic: "TBD",
+        topic: "Towards Interactable 3D Spaces",
     },
     {
         time: "15:00 - 15:30",
@@ -112,7 +112,7 @@ const scheduleItems = [
         type: "keynote",
         session: "Keynote 8",
         speaker: "Jiachen Li",
-        topic: "TBD",
+        topic: "Toward Safe and Efficient Coordination for Cooperative Embodied Agents",
     },
     {
         time: "17:30 - 17:45",
@@ -209,7 +209,7 @@ const Schedule = () => {
                     {/* <h3 className="text-lg font-semibold text-gray-800">Workshop Schedule</h3> */}
                     <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
                         <span className="inline-flex items-center gap-1 rounded-md bg-white/70 text-gray-800 px-2 py-1 border border-gray-200">Date: <span className="font-medium">Thursday, June 4, 2026</span></span>
-                        <span className="inline-flex items-center gap-1 rounded-md bg-white/70 text-gray-800 px-2 py-1 border border-gray-200">Location: <span className="font-medium">Denver, CO, USA</span></span>
+                        <span className="inline-flex items-center gap-1 rounded-md bg-white/70 text-gray-800 px-2 py-1 border border-gray-200">Location: <span className="font-medium">Four Seasons 1, Denver, CO, USA</span></span>
                         <span className="inline-flex items-center gap-1 rounded-md bg-white/70 text-gray-800 px-2 py-1 border border-gray-200">Live: <span className="font-medium">Upcoming</span></span>
                         <span className="inline-flex items-center gap-1 rounded-md bg-white/70 text-gray-800 px-2 py-1 border border-gray-200">Timezone: <span className="font-medium">MDT (GMT-6)</span></span>
                     </div>

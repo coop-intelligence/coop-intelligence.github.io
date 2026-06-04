@@ -41,7 +41,7 @@ const Header = () => {
                     </span>
                     <span className="w-px h-4 bg-sky-300/30" />
                     <span className="text-[0.5em] text-white/90 font-semibold flex items-center gap-1.5">
-                        📍 Denver CO, USA
+                        📍 Four Seasons 1, Denver CO, USA
                     </span>
                 </div>
             </div>
