@@ -12,7 +12,7 @@ const scheduleItems = [
         time: "08:40 - 09:00",
         type: "keynote",
         session: "Opening Keynote",
-        speaker: "Xiangbo Gao",
+        speaker: "Zhengzhong Tu",
     },
     {
         time: "09:00 - 09:30",
@@ -156,7 +156,7 @@ const itemStyles = {
 };
 
 const speakerImages = {
-    "Xiangbo Gao": "/xiangbo_gao.png",
+    "Zhengzhong Tu": "/zhengzhong_tu.png",
     "Xiaopeng Li": "/xiaopeng_li.png",
     "Manabu Tsukada": "/manabu_tsukada.png",
     "Bolei Zhou": "/bolei_zhou.png",
